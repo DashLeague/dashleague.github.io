@@ -1,16 +1,28 @@
-## Hi there 👋
+## Dash League welcomes you
 
-<!--
-**DashLeague/dashleague** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repo serves as an archive of the Dash League and its history
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## For non-programmers
+You can access the site via https://dashleague.github.io/
+
+
+## For programmers and those intrigued
+all code in this repo is documented and structures can be found in [docs/dev/](docs/dev)
+
+feel free to fork this repo and use/modify it under the [BSD-3-Clause licence](LICENSE)
+
+
+## Licenses
+- Code:
+  >[BSD-3-Clause licence](LICENSE)
+
+- Dash Legaue branding:
+  >Remains fully copyright by Dash League and it's partners
+
+- HyperDash branding and imagery:
+  >Remains the copyright of Triangle Factory and its partners
+
+- Other Assets:
+  > Remain the copyright of the original owner unless specified
