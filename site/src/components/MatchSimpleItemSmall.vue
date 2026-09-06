@@ -1,5 +1,4 @@
-<!-- This component is the same as MatchSimpleItemSmall but has images -->
-
+<!-- This component is the same as MatchSimpleItem but has no images -->
 <template>
   <div class="match-simple-item">
       <h3>DATE</h3>
