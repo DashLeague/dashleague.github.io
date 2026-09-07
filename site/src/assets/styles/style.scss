@@ -14,12 +14,13 @@ body {
     font-weight: 500;
     font-style: normal;
     font-optical-sizing: auto;
-    background: #ffffff;
+    background: var(--background);
+    color: var(--text-color);
 }
 
 nav{
     font-size: 15px;
-    background-color: gray;
+    background-color: var(--card-dark);
     height: 40px;
     display: flex;
     justify-content: center;
@@ -29,23 +30,23 @@ nav{
         display: block;
         height: 100%;
         padding: 10px 15px;
-        color: white;
+        color: var(--text-color);
         text-decoration: none;
     }
     a:hover{
-        background-color: rgb(82, 81, 81);
+        background-color: var(--card);
     }
 }
 
 footer{
     font-size: 15px;
-    background-color: gray;
+    background-color: var(--card-dark);
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    color: white;
+    color: var(--text-color);
 }
 
 #app {
@@ -58,6 +59,8 @@ footer{
     flex: 1;
     display: flex;
     flex-direction: column;
+    background-color: var(--background);
+    color: var(--text-color);
 }
 
 .center{
@@ -70,7 +73,60 @@ footer{
     border-radius: 15px;
 }
 
-// Componants
+
+// 888888888888  88        88  88888888888  88b           d88  88888888888  ad88888ba   
+//      88       88        88  88           888b         d888  88          d8"     "8b  
+//      88       88        88  88           88`8b       d8'88  88          Y8,          
+//      88       88aaaaaaaa88  88aaaaa      88 `8b     d8' 88  88aaaaa     `Y8aaaaa,    
+//      88       88""""""""88  88"""""      88  `8b   d8'  88  88"""""       `"""""8b,  
+//      88       88        88  88           88   `8b d8'   88  88                  `8b  
+//      88       88        88  88           88    `888'    88  88          Y8a     a8P  
+//      88       88        88  88888888888  88     `8'     88  88888888888  "Y88888P"   
+
+// This lays out the defults for the themes
+// This is Light mode also
+:root{
+    --HD-red: #F40F35;
+    --HD-blue: #0F86F4;
+    --HD-yellow: #FFCE1C;
+    --HD-green: #51A230;
+    --HD-purple: #654EBB;
+    --HD-orange: #EC7F35;
+    --HD-black: #26262B;
+    --HD-white: #C8C8BD;
+    --HD-cyan: #37D5F7;
+    --HD-pink: #F396BB;
+    --HD-grey: #737373;
+
+    --theme-catagory:"light";
+
+    --background: #ffffff;
+    --card: #e7e7e7;
+    --card-dark: #d5d5d5;
+    --text-color: #000000;
+}
+
+// This is how a theme is defined
+[data-theme="dark"]{
+    // theme-category is used for picking the right images for icons
+    --theme-category:"dark";
+
+    --background: #1a1a1a;
+    --card: #353535;
+    --card-dark: #252525;
+    --text-color: #ffffff;
+}
+
+
+//   ,ad8888ba,    ,ad8888ba,    88b           d88  88888888ba   
+//  d8"'    `"8b  d8"'    `"8b   888b         d888  88      "8b  
+// d8'           d8'        `8b  88`8b       d8'88  88      ,8P  
+// 88            88          88  88 `8b     d8' 88  88aaaaaa8P'  
+// 88            88          88  88  `8b   d8'  88  88""""""'    
+// Y8,           Y8,        ,8P  88   `8b d8'   88  88           
+//  Y8a.    .a8P  Y8a.    .a8P   88    `888'    88  88           
+//   `"Y8888Y"'    `"Y8888Y"'    88     `8'     88  88           
+
 
 .match-simple-item{
     border-radius: 15px;
@@ -103,4 +159,18 @@ footer{
     flex-direction: column;
     align-items: center;
     gap: 1em;
+}
+
+.popup-menu{
+    position: absolute;
+    background-color: var(--card);
+    color: var(--text-color);
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    top:40px;
+    flex-direction: column;
+    select{
+        width: 100%;
+        padding: 0.5em 1em;
+    }
 }

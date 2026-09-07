@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import UserSettings from './components/UserSettings.vue';
+
+</script>
 
 <template>
   <nav>
@@ -11,6 +14,7 @@
     <router-link to="/players">Players</router-link>
 
     <router-link to="/timeline">Timeline</router-link>
+    <UserSettings/>
   </nav>
   <main class="content">
     <router-view/>
