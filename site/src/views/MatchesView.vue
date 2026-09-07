@@ -1,6 +1,7 @@
 <template>
   <div>
     <ViewToggle v-model:condensed="condensed_data" />
+    <div class="flex-list">
     <MatchOverviewCondensed
       v-if="condensed_data"
       v-for="item in matchesData"
@@ -33,7 +34,7 @@
       :team_away_name="item.away_team.team_name"
       :team_away_score="item.away_team.score"
     />
-    
+    </div>
   </div>
 </template>
 

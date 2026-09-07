@@ -3,10 +3,10 @@
 <template>
   <div class="match-simple-item-condensed">
       <h3>{{ match_time }}</h3>
-      <h3>{{ team_home_name }}</h3>
-      <p>{{ team_home_score }}</p>
-      <h3>{{ team_away_name }}</h3>
-      <p>{{ team_away_score }}</p>
+      <h1>{{ team_home_name }} [{{ team_home_score }}]</h1>
+      <h1>{{ team_away_name }} [{{ team_away_score }}]</h1>
+      <a href="">View Match Page</a>
+      <a href="">View Stream</a>
   </div>
 </template>
 

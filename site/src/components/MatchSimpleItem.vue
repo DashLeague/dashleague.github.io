@@ -3,10 +3,21 @@
 <template>
   <div class="match-simple-item">
       <h3>{{ match_time }}</h3>
-      <h3>{{ team_home_name }}</h3>
-      <p>{{ team_home_score }}</p>
-      <h3>{{ team_away_name }}</h3>
-      <p>{{ team_away_score }}</p>
+      <div>
+        <h1>{{ team_home_name }}</h1>
+        <h1>[{{ team_home_score }}]</h1>
+      </div>
+      <img src="https://placeholder.dev-dave.com/blank/256x256/558811" width="100%" height="auto" loading="lazy">
+      <h1>VS</h1>
+      <img src="https://placeholder.dev-dave.com/blank/256x256/558811" width="100%" height="auto" loading="lazy">
+      <div>
+        <h1>{{ team_away_name }}</h1>
+        <h1>[{{ team_away_score }}]</h1>
+      </div>
+      <div>
+        <a href="">View Match Page</a>
+        <a href="">View Stream</a>
+      </div>
   </div>
 </template>
 
