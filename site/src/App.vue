@@ -8,8 +8,7 @@
     <!-- Renders as <a href="#/about"> About </a> -->
     <router-link to="/matches">Matches</router-link>
   </nav>
-  <div class="content">
+  <main class="content">
     <router-view/>
-  </div>
-  
+  </main>
 </template>
