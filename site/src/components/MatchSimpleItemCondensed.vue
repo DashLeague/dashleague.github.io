@@ -1,6 +1,7 @@
 <!-- This component is the same as MatchSimpleItem but has no images -->
+
 <template>
-  <div class="match-simple-item">
+  <div class="match-simple-item-condensed">
       <h3>{{ match_time }}</h3>
       <h3>{{ team_home_name }}</h3>
       <p>{{ team_home_score }}</p>
