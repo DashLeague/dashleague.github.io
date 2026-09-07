@@ -1,6 +1,6 @@
 ## Dash League welcomes you
 
-This repo serves as an archive of the Dash League and its history
+This repo serves as an archive of the Dash League and it's history
 
 
 
@@ -9,20 +9,20 @@ You can access the site via https://dashleague.github.io/
 
 
 ## For programmers and those intrigued
-all code in this repo is documented and structures can be found in [docs/dev/](docs/dev)
+All code in this repo is documented and structures can be found in [docs/dev/](docs/dev)
 
-feel free to fork this repo and use/modify it under the [BSD-3-Clause licence](LICENSE)
+Feel free to fork this repo and use/modify it under the [BSD-3-Clause licence](LICENSE)
 
 
 ## Licenses
 - Code:
   >[BSD-3-Clause licence](LICENSE)
 
-- Dash Legaue branding:
+- Dash League branding:
   >Remains fully copyright by Dash League and it's partners
 
 - HyperDash branding and imagery:
   >Remains the copyright of Triangle Factory and its partners
 
 - Other Assets:
-  > Remain the copyright of the original owner unless specified
+  >Remain the copyright of the original owner unless specified
