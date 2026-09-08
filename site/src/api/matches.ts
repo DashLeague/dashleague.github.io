@@ -24,3 +24,23 @@ export async function get_matches(season:number) {
         return null;
     }
 }
+
+export async function get_match(matchID:string) {
+        console.log(`GET MATCH ${matchID}`)
+    try {
+        // fetch the seasons matches overview json data
+        let response = await fetch(
+            `/data/matches/${encodeURIComponent(matchID)}.json`
+        );
+
+        if (await isResponseValidJson(response)) {
+            return await response.json();
+        }
+        else {
+            return null; // Matches for specified season not found
+        }
+    } catch (error){
+        console.error("err:", error);
+        return null;
+    }
+}

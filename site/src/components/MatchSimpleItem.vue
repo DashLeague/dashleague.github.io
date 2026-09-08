@@ -16,6 +16,7 @@
       </div>
       <div>
         <a href="">View Match Page</a>
+        <router-link :to="`/match/${match_id}`">View Match Page</router-link>
         <a href="">View Stream</a>
       </div>
   </div>
@@ -23,6 +24,7 @@
 
 <script setup>
 const props = defineProps({
+  match_id: String,
   team_home_id: String,
   team_home_name: String,
   team_home_score: Number,
