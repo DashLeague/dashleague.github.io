@@ -1,0 +1,1 @@
+![DLA min](/docs/images/DLA-min.svg)
