@@ -12,6 +12,8 @@ import UserSettings from './components/UserSettings.vue';
     <router-link to="/teams">Teams</router-link>
 
     <router-link to="/players">Players</router-link>
+    
+    <router-link to="/hall-of-champions">Hall Of Champions</router-link>
 
     <router-link to="/timeline">Timeline</router-link>
     <UserSettings/>

@@ -4,6 +4,7 @@ import MatchView from "../views/MatchesView.vue"
 import MatchPageView from "../views/MatchPageView.vue"
 import PlayerPageView from "../views/PlayerPageView.vue"
 import TeamPageView from "../views/TeamPageView.vue"
+import ChampView from "../views/HallOfChampions.vue"
 import Error404View from "../views/Error404View.vue"
 
 const routes = [
@@ -35,7 +36,11 @@ const routes = [
     component: PlayerPageView,
     props: true
   },
-
+  {
+    path: "/hall-of-champions",
+    name: "hall of champions",
+    component: ChampView
+  },
   {
     path: '/:pathMatch(.*)*',
     name: "error 404",

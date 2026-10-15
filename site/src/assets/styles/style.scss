@@ -65,8 +65,11 @@ footer{
 
 .center{
     margin: auto;
+    justify-content: center
 }
-
+.text-center{
+    text-align: center;
+}
 .error-404-card{
     padding: 4em;
     background-color: gray;
@@ -157,6 +160,13 @@ footer{
     width: 90%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.flex-row{
+    width: 90%;
+    display: flex;
     align-items: center;
     gap: 1em;
 }
