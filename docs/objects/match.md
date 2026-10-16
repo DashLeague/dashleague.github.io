@@ -1,4 +1,4 @@
-![DLA min](/docs/images/DLA-min.svg)
+![DLA min](/docs/images/DLA.svg)
 
 # Player Data Objects
 This object adheres to the style guide set out [here](/docs/dev/style-guide-json.md)

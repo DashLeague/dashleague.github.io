@@ -1,4 +1,4 @@
-![DLA min](/docs/images/DLA-min.svg)
+![DLA min](/docs/images/DLA.svg)
 
 # Dash League Archive Site Docs
 
