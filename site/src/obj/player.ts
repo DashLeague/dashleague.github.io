@@ -1,10 +1,11 @@
-import {type RoundStats, type SeasonData} from "../obj/stats.ts"
+import type {
+    SeasonData,
+    AggregatedStats
+} from "../obj/stats.ts"
 
 type PlayerData = {
-    id: String
-    name: String
-    // overall_stats: Stats
-    maps: Array<RoundStats>
+    player_id: String
+    player_name: String
     seasons: Array<SeasonData>
-
+    aggregated_stats: AggregatedStats
 }

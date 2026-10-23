@@ -6,7 +6,7 @@ This object adheres to the style guide set out [here](/docs/dev/style-guide-json
 - [Player Data Objects](#player-data-objects)
   - [Contents](#contents)
   - [Full Object](#full-object)
-  - [Abstracted Object](#abstracted-object)
+  - [TypeScript Type](#typescript-type)
 
 
 ## Full Object
@@ -21,15 +21,19 @@ This object adheres to the style guide set out [here](/docs/dev/style-guide-json
     "time": 709,
     "results":{
         "home":{
-            "team_id": "UUIDv4",
-            "team_name": "HOME",
+            "team":{
+                "team_id": "UUIDv4",
+                "team_name": "HOME"
+            },
             "score": 0,
             "time": 0,
             "winner": false
         },
         "away":{
-            "team_id": "UUIDv4",
-            "team_name": "AWAY",
+            "team":{
+                "team_id": "UUIDv4",
+                "team_name": "AWAY"
+            },
             "score": 0,
             "time": 0,
             "winner": false
@@ -82,18 +86,18 @@ This object adheres to the style guide set out [here](/docs/dev/style-guide-json
 }
 ```
 
-## Abstracted Object
-```json
-{
-    "round_id": 0,
-    "map": Map Object,
-    "forfeit": false,
-    "time": 0,
-    "results":{
-        "home": Round Score Team Object,
-        "away": Round Score Team Object
+## TypeScript Type
+```ts
+export type Round = {
+    round_id: Number,
+    map: Map,
+    forfeit: Boolean,
+    time: Number,
+    results: {
+        home: RoundScore,
+        away: RoundScore
     },
-    "stats_home": List of Round Stats Player Objects,
-    "stats_away": List of Round Stats Player Objects
+    stats_home: RoundStats[]
+    stats_away: RoundStats[]
 }
 ```
