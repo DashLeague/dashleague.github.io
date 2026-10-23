@@ -19,6 +19,7 @@ This object adheres to the style guide set out [here](/docs/dev/style-guide-json
     "playoff": false,
     "forfeit": false,
     "invalidated": false,
+    "match_timestamp": 0,
     "teams":{
         "home":{
             "team_id": "UUIDv4",
@@ -112,6 +113,7 @@ This object adheres to the style guide set out [here](/docs/dev/style-guide-json
     "playoff": false,
     "forfeit": false,
     "invalidated": false,
+    "match_timestamp": 0,
     "teams":{
         "home": Condensed Team Object,
         "away": Condensed Team Object
@@ -126,35 +128,44 @@ This is the varient to be used for player related infomation
 ```json
 {
   "match_id": "UUIDv4",
+  "season": 0,
+  "cycle": 0,
+  "playoff": false,
+  "match_timestamp": 0,
   "rounds":[
       {
-          "map_name": "Map Name",
-          "map_mode": "Game Mode",
-          "team": "Team Name",
-          "stats":{
-              "kills": 0,
-              "kills_per_minute": 0,
-              "deaths": 0,
-              "deaths_per_minute": 0,
-              "kd": 0,
-              "wins": 0,
-              "loss": 0,
-              "playtime": 0,
-              "shots": 0,
-              "shots_hit": 0,
-              "accuracy": 0,
-              "damage": 0,
-              "headshots": 0,
-              "score": 0,
-              "score_per_minute": 0,
-              "payload_push_time": 0,
-              "domination_captures": 0,
-              "domination_counters": 0,
-              "control_point_captures": 0,
-              "terminal_interactions": 0,
-              "terminal_interactions_per_minute": 0
-          }
+        "map":{
+                "name": "Map Name",
+                "mode": "Game Mode"
+        },
+        "played_for": {
+            "team_id": "UUIDv4",
+            "team_name": "TEAM",
+        },
+        "stats":{
+            "kills": 0,
+            "kills_per_minute": 0,
+            "deaths": 0,
+            "deaths_per_minute": 0,
+            "kd": 0,
+            "wins": 0,
+            "loss": 0,
+            "playtime": 0,
+            "shots": 0,
+            "shots_hit": 0,
+            "accuracy": 0,
+            "damage": 0,
+            "headshots": 0,
+            "score": 0,
+            "score_per_minute": 0,
+            "payload_push_time": 0,
+            "domination_captures": 0,
+            "domination_counters": 0,
+            "control_point_captures": 0,
+            "terminal_interactions": 0,
+            "terminal_interactions_per_minute": 0
+        }
       }
   ]
-  }
+}
 ```

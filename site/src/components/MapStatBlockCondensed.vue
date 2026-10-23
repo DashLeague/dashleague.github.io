@@ -9,19 +9,19 @@
       <td>{{ stats.damage}}</td>
       <td>{{ stats.headshots}}</td>
       <td>{{ stats.score}}</td>
-      <td v-if="stats.gamemode === Gamemode.Payload">
+      <td v-if="gamemode === Gamemode.Payload">
         {{ stats.payload_push_time}}
       </td>
       <td v-else-if=show_null_values> NA </td>
-      <td v-if="stats.gamemode === Gamemode.Domination">
+      <td v-if="gamemode === Gamemode.Domination">
         {{ stats.domination_captures}}
       </td>
       <td v-else-if=show_null_values> NA </td>
-      <td v-if="stats.gamemode === Gamemode.Domination">
+      <td v-if="gamemode === Gamemode.Domination">
         {{ stats.domination_counters}}
       </td>
       <td v-else-if=show_null_values> NA </td>
-      <td v-if="stats.gamemode === Gamemode.ControlPoint">
+      <td v-if="gamemode === Gamemode.ControlPoint">
         {{ stats.control_point_captures}}
       </td>
       <td v-else-if=show_null_values> NA </td>
@@ -29,10 +29,11 @@
 </template>
 
 <script setup lang="ts">
-import { Gamemode, type RoundStats } from '../obj/stats.ts';
-
+import type { RoundStats } from '../obj/stats.ts';
+import { Gamemode } from '@/obj/common.ts';
 const props = defineProps<{
   stats: RoundStats,
+  gamemode: Gamemode,
   show_null_values?: Boolean
 }>();
 

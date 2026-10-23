@@ -10,7 +10,7 @@ export type SeasonData = {
 }
 
 export type RoundStats = {
-    gamemode: Gamemode,
+    player_name: string,
     kills: number,
     kills_per_minute: number,
     deaths: number,
@@ -34,8 +34,8 @@ export type RoundStats = {
 
 export type RoundScore = {
     team: CondensedTeam,
-    score: Number,
-    time: Number,
+    score: number,
+    time: number,
     winner: Boolean
 }
 
