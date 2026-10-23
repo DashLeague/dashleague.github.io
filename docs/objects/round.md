@@ -87,6 +87,7 @@ This object adheres to the style guide set out [here](/docs/dev/style-guide-json
 ```
 
 ## TypeScript Type
+This is the actual type used by the site [/obj/round.ts](/site/src/obj/round.ts)
 ```ts
 export type Round = {
     round_id: Number,
