@@ -1,4 +1,7 @@
-## Dash League welcomes you
+![DLA min](/docs/images/DLA.svg)
+
+
+# Dash League welcomes you
 
 This repo serves as an archive of the Dash League and it's history
 
