@@ -6,7 +6,6 @@
 This repo serves as an archive of the Dash League and it's history
 
 
-
 ## For non-programmers
 You can access the site via https://dashleague.github.io/
 
@@ -16,6 +15,8 @@ All code in this repo is documented and structures can be found in [docs/dev/](d
 
 Feel free to fork this repo and use/modify it under the [BSD-3-Clause licence](LICENSE)
 
+## This project has no use of AI or any generative models
+![No AI](/docs/images/no-AI.png)
 
 ## Licenses
 - Code:
