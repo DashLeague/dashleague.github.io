@@ -1,0 +1,48 @@
+[
+    {
+        "match_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+        "match_timestamp": 0,
+        "season": 11,
+        "cycle": 1,
+        "forfeit": false,
+        "playoff": false,
+        "home_team": {
+            "team_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "team_name": "Team A",
+            "score": 0,
+            "winner": false
+        },
+        "away_team": {
+            "team_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "team_name": "Team B",
+            "score": 0,
+            "winner": false
+        },
+        "metadata":{
+            "vod_link": ""
+        }
+    },
+    {
+		"match_id" : "02f7b29a-8dac-444d-8a31-fe43e700158c",
+		"match_timestamp" : 1740877200,
+		"season" : 9,
+		"cycle" : 1,
+		"playoff" : 0,
+		"forfeit" : 0,
+        "home_team": {
+            "team_id": "270ab330-fbc8-4502-b642-0157458d4559",
+            "team_name": "GRIT",
+            "score": 0,
+            "winner": false
+        },
+        "away_team": {
+            "team_id": "66f7c391-dd56-4666-8255-f7b206fc517c",
+            "team_name": "IC0N",
+            "score": 2,
+            "winner": true
+        },
+        "metadata":{
+            "vod_link": ""
+        }
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "season":"Season 10",
+        "dasher":{
+            "team_name":"TANK",
+            "players": [
+                "Blolbfish (aka Lol)",
+                "Shout",
+                "bread",
+                "Channel Cat (aka Humbles)",
+                "Fracture fish (aka Fractor)",
+                "Boney-eared (aka Joneas Jostar)",
+                "El Deaffy",
+                "Suit",
+                "Tost",
+                "IV",
+                "8aron",
+                "Destroyer"
+            ]
+        },
+        "sprinter":{
+            "team_name":"F1R3",
+            "players": [
+                "GeleArthur",
+                "Tenacious Dave",
+                "Airwolf",
+                "Dougi",
+                "Vleerbeer420",
+                "Raven",
+                "Blitzer",
+                "Justkaha",
+                "DerSchwendel",
+                "Noble",
+                "Kyron_hunter",
+                "Toast"
+            ]
+        },
+        "walker":{
+            "team_name":"VRUS",
+            "players": [
+                "HACKERMAN",
+                "GarbageMan",
+                "Smashinghard",
+                "DreDarkroom",
+                "Brotherboy",
+                "Malicore",
+                "pylhoff",
+                "Red3109",
+                "HERO",
+                "Quendi",
+                "Flash"
+            ]
+        }
+    }
+]
