@@ -7,7 +7,7 @@
     <div v-for="season in playerData.seasons">
       <h1>Stats for {{ season.sesaon }}</h1>
       <ViewToggle v-model:condensed="condensed_data" />
-      <table>
+      <!-- <table>
         <MapStatBlockCondensed
         v-if="condensed_data"
         v-for="round in season.maps"
@@ -18,7 +18,7 @@
         v-for="round in season.maps"
         :stats=round.stats
         />
-      </table>
+      </table> -->
     </div>
   </div>
 </template>

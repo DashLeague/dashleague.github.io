@@ -1,4 +1,10 @@
 <template>
+  
+  <!-- Header -->
+  <div class="match-head">
+
+  </div>
+  <!-- Rounds -->
   <div
   class="match-map"
   v-if="matchData"
