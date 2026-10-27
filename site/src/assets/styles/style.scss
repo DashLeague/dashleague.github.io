@@ -217,13 +217,35 @@ section {
             img {
                 aspect-ratio: 1/1;
             }
+
+            transition: transform .2s ease-in-out, border-color .2s ease-in-out;
         }
+
+        a:hover{
+            border-color: #505050;
+            transform: translateY(-18px);
+        }
+
+        animation: fade-in .5s ease-in;
+        animation-fill-mode: forwards; 
     }
 
     @media (max-width: 840px){
         .hero-quicklinks{
             grid-template-columns: repeat(2, 1fr);
         }
+    }
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+        transform: translateY(-18px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 

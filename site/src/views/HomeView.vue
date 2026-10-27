@@ -12,7 +12,7 @@
         </div>
         <div class="hero-content">
             <h1 class="hero-title">Dash League Archive</h1>
-            <p class="hero-text">A Tribute to the mighty and fallen</p>
+            <p class="hero-text">A Tribute To The Mighty And Fallen</p>
         </div>
         <div class="hero-quicklinks">
             <router-link to="/matches">
