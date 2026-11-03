@@ -134,9 +134,9 @@ section {
     // theme-category is used for picking the right images for icons
     --theme-category:"dark";
 
-    --background: #1a1a1a;
+    --background: #000105;
     --card: #353535;
-    --card-dark: #252525;
+    --card-dark: #171b29;
     --text-color: #ffffff;
 }
 
@@ -315,6 +315,42 @@ section {
             padding: 0.5em;
             border-radius: 5px;
         }
+    }
+}
+
+.champion-podiums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .champion-team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+    }
+}
+
+.team-logo{
+    position: relative;
+    img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+    &.crown::after{
+        content: "";
+        background-image: url("/assets/crown.svg");
+        filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(1deg) brightness(92%) contrast(100%);
+        fill: yellow;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        display: block;
+        transform: rotate(30deg) translateY(-25px);
     }
 }
 //   ,ad8888ba,    ,ad8888ba,    88b           d88  88888888ba   
