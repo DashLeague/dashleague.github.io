@@ -11,7 +11,7 @@ export async function get_matches(season:number) {
     try {
         // fetch the seasons matches overview json data
         let response = await fetch(
-            `/data/matches/s${encodeURIComponent(season)}/matches.json`
+            `/data/matches/s${encodeURIComponent(season)}_index.json`
         );
 
         if (await isResponseValidJson(response)) {
