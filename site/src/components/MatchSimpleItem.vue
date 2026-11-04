@@ -7,15 +7,24 @@
         <h1>{{ team_home_name }}</h1>
         <h1>[{{ team_home_score }}]</h1>
       </div>
-      <img src="https://placeholder.dev-dave.com/blank/256x256/558811" width="100%" height="auto" loading="lazy">
+      <div
+        class="team-logo"
+        :class="{ 'crown': team_home_winner }"
+        >
+        <img :src="`/assets/team_logos/${team_home_id}.png`" width="100%" height="auto" loading="lazy">
+      </div>
       <h1>VS</h1>
-      <img src="https://placeholder.dev-dave.com/blank/256x256/558811" width="100%" height="auto" loading="lazy">
+      <div
+        class="team-logo"
+        :class="{ 'crown': team_away_winner }"
+        >
+        <img :src="`/assets/team_logos/${team_away_id}.png`" width="100%" height="auto" loading="lazy">
+      </div>
       <div>
         <h1>{{ team_away_name }}</h1>
         <h1>[{{ team_away_score }}]</h1>
       </div>
       <div>
-        <a href="">View Match Page</a>
         <router-link :to="`/match/${match_id}`">View Match Page</router-link>
         <a href="">View Stream</a>
       </div>
@@ -28,9 +37,11 @@ const props = defineProps({
   team_home_id: String,
   team_home_name: String,
   team_home_score: Number,
+  team_home_winner: Boolean,
   team_away_id: String,
   team_away_name: String,
   team_away_score: Number,
+  team_away_winner: Boolean,
   match_timestamp: Number
 })
 

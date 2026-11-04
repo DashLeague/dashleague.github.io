@@ -11,12 +11,12 @@
       :cycle = "item.cycle"
       :forfeit = "item.forfeit"
       :playoff = "item.playoff"
-      :team_home_id="item.home_team.team_id"
-      :team_home_name="item.home_team.team_name"
-      :team_home_score="item.home_team.score"
-      :team_away_id="item.away_team.team_id"
-      :team_away_name="item.away_team.team_name"
-      :team_away_score="item.away_team.score"
+      :team_home_id="item.teams.home.team_id"
+      :team_home_name="item.teams.home.team_name"
+      :team_home_score="item.teams.home.score"
+      :team_away_id="item.teams.away.team_id"
+      :team_away_name="item.teams.away.team_name"
+      :team_away_score="item.teams.away.score"
     />
     <MatchOverview
       v-else
@@ -27,12 +27,15 @@
       :cycle = "item.cycle"
       :forfeit = "item.forfeit"
       :playoff = "item.playoff"
-      :team_home_id="item.home_team.team_id"
-      :team_home_name="item.home_team.team_name"
-      :team_home_score="item.home_team.score"
-      :team_away_id="item.away_team.team_id"
-      :team_away_name="item.away_team.team_name"
-      :team_away_score="item.away_team.score"
+      :team_home_id="item.teams.home.team_id"
+      :team_home_name="item.teams.home.team_name"
+      :team_home_score="item.teams.home.score"
+      :team_home_winner="item.teams.home.winner"
+
+      :team_away_id="item.teams.away.team_id"
+      :team_away_name="item.teams.away.team_name"
+      :team_away_score="item.teams.away.score"
+      :team_away_winner="item.teams.away.winner"
     />
     </div>
   </div>

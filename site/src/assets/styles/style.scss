@@ -341,16 +341,24 @@ section {
     &.crown::after{
         content: "";
         background-image: url("/assets/crown.svg");
-        filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(1deg) brightness(92%) contrast(100%);
-        fill: yellow;
+        filter:
+            invert(42%)
+            sepia(93%)
+            saturate(1352%)
+            hue-rotate(1deg)
+            brightness(92%)
+            contrast(100%)
+            drop-shadow(4px 4px 8px #E88F0088)
+            ;
         position: absolute;
         width: 100px;
         height: 100px;
         z-index: 2;
-        top: 0;
-        right: 0;
+        top: -2em;
+        right: -0.5em;
         display: block;
-        transform: rotate(30deg) translateY(-25px);
+        transform: rotate(30deg);
+        filter: drop-shadow();
     }
 }
 //   ,ad8888ba,    ,ad8888ba,    88b           d88  88888888ba   
