@@ -31,11 +31,15 @@
       :team_home_name="item.teams.home.team_name"
       :team_home_score="item.teams.home.score"
       :team_home_winner="item.teams.home.winner"
+      :team_home_color="item.teams.home.team_color"
 
       :team_away_id="item.teams.away.team_id"
       :team_away_name="item.teams.away.team_name"
       :team_away_score="item.teams.away.score"
       :team_away_winner="item.teams.away.winner"
+      :team_away_color="item.teams.away.team_color"
+
+  
     />
     </div>
   </div>

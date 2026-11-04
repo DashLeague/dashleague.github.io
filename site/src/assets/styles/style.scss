@@ -127,6 +127,9 @@ section {
     --card: #e7e7e7;
     --card-dark: #d5d5d5;
     --text-color: #000000;
+
+    --home-color: gray;
+    --away-color: gray;
 }
 
 // This is how a theme is defined
@@ -333,10 +336,17 @@ section {
 
 .team-logo{
     position: relative;
+    width: 30vmin;
+    height: 30vmin;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    filter: drop-shadow(0px 0px 6px #000);
     img{
         height: 100%;
         width: 100%;
-        border-radius: 50%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        // border-radius: 50%;
     }
     &.crown::after{
         content: "";
@@ -351,11 +361,11 @@ section {
             drop-shadow(4px 4px 8px #E88F0088)
             ;
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         z-index: 2;
-        top: -2em;
-        right: -0.5em;
+        top: -20%;
+        right: -5%;
         display: block;
         transform: rotate(30deg);
         filter: drop-shadow();
@@ -373,7 +383,7 @@ section {
 
 .match-simple-item{
     border-radius: 15px;
-    background-color: gray;
+    background: linear-gradient(90deg,var(--home-color) 25%, var(--away-color) 75%);;
     display: grid;
     width: 100%;
     justify-content: space-evenly;
@@ -381,6 +391,53 @@ section {
     padding: 2em;
     grid-template-columns: repeat(7, 1fr);
     text-align: center;
+
+    .match-simple-item-teams{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        grid-column: span 3;
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .match-simple-item-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
+    }
+
+    @media (max-width: 840px){
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 3em 10em 5em 1fr;
+
+        .match-simple-item-date{
+            grid-column: span 2;
+        }
+        .match-simple-item-teams{
+            grid-column: span 2;
+        }
+        .match-simple-item-home-name{
+            grid-row: 3;
+            grid-column: 1;
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+        .match-simple-item-away-name{
+            grid-row: 3;
+            grid-column: 2;
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+        .match-simple-item-links{
+            grid-column: span 2;
+            flex-direction: row;
+        }
+    }
 }
 
 .match-simple-item-condensed{
