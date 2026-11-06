@@ -1,23 +1,42 @@
 <!-- This component is the same as MatchSimpleItem but has no images -->
 
 <template>
-  <div class="match-simple-item-condensed">
-      <h3>{{ match_time }}</h3>
-      <h1>{{ team_home_name }} [{{ team_home_score }}]</h1>
-      <h1>{{ team_away_name }} [{{ team_away_score }}]</h1>
-      <a href="">View Match Page</a>
-      <a href="">View Stream</a>
+  <div class="match-simple-item match-condensed"
+    :style="{
+    '--home-color': `#${team_home_color}`,
+    '--away-color': `#${team_away_color}`
+  }"
+  >
+      <h3 class="match-simple-item-date">{{ match_time }}</h3>
+      <div class="match-simple-item-home-name">
+        <h1>{{ team_home_name }}</h1>
+        <h1>[{{ team_home_score }}]</h1>
+      </div>
+      <div class="match-simple-item-away-name">
+        <h1>{{ team_away_name }}</h1>
+        <h1>[{{ team_away_score }}]</h1>
+      </div>
+      <div class="match-simple-item-links">
+        <router-link :to="`/match/${match_id}`">View Match Page</router-link>
+        <a class="Button" href="">View Stream</a>
+      </div>
   </div>
 </template>
 
 <script setup>
 const props = defineProps({
+  match_id: String,
   team_home_id: String,
   team_home_name: String,
   team_home_score: Number,
+  team_home_winner: Boolean,
+  team_home_color: String,
+
   team_away_id: String,
   team_away_name: String,
   team_away_score: Number,
+  team_away_winner: Boolean,
+  team_away_color: String,
   match_timestamp: Number
 })
 

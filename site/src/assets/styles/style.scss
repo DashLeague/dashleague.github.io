@@ -338,6 +338,7 @@ section {
     position: relative;
     width: 30vmin;
     height: 30vmin;
+    max-height: 100%;
     object-fit: contain;
     aspect-ratio: 1/1;
     filter: drop-shadow(0px 0px 6px #000);
@@ -351,6 +352,7 @@ section {
     &.crown::after{
         content: "";
         background-image: url("/assets/crown.svg");
+        background-repeat: no-repeat;
         filter:
             invert(42%)
             sepia(93%)
@@ -371,6 +373,10 @@ section {
         filter: drop-shadow();
     }
 }
+
+.toolbar{
+    display: flex;
+}
 //   ,ad8888ba,    ,ad8888ba,    88b           d88  88888888ba   
 //  d8"'    `"8b  d8"'    `"8b   888b         d888  88      "8b  
 // d8'           d8'        `8b  88`8b       d8'88  88      ,8P  
@@ -379,6 +385,36 @@ section {
 // Y8,           Y8,        ,8P  88   `8b d8'   88  88           
 //  Y8a.    .a8P  Y8a.    .a8P   88    `888'    88  88           
 //   `"Y8888Y"'    `"Y8888Y"'    88     `8'     88  88           
+
+
+.season-buttons{
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: linear-gradient(0deg,rgb(0, 0, 0) 100%, rgba(85, 92, 98, 0) 0%);
+
+    a{
+        width: 100%;
+        padding: 1em 3em;
+        border-width: 0 0 3px 0 !important;
+        background-color: transparent;
+        color: white;
+        transition: border-color 0.2s ease-in-out;
+        border-color: gray; 
+
+        &.selected{
+            border-color: red; 
+        }
+    }
+
+    button:hover{
+        background-color: rgba(255, 255, 255, 0.137);
+    }
+}
 
 
 .match-simple-item{
@@ -391,6 +427,26 @@ section {
     padding: 2em;
     grid-template-columns: repeat(7, 1fr);
     text-align: center;
+
+    &.match-condensed{
+        grid-template-columns: repeat(4, 1fr);
+        @media (max-width: 840px){
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr 1.5fr 1fr;
+
+            .match-simple-item-home-name{
+                grid-row: 2;
+            }
+            .match-simple-item-away-name{
+                grid-row: 2;
+                grid-column: 3;
+            }
+            .match-simple-item-links{
+                grid-column: span 3;
+                grid-row: 3;
+            }
+        }
+    }
 
     .match-simple-item-teams{
         width: 100%;
@@ -406,18 +462,31 @@ section {
     .match-simple-item-links{
         display: flex;
         flex-direction: column;
-        justify-content: space-around
+        justify-content: space-around;
+        gap: 1em;
+
+        a{
+            padding: 1em 2em;
+            background-color: var(--HD-blue);
+            border-radius: 10px;
+            color: white;
+            text-decoration: none;
+
+            &:nth-child(1){
+                background-color: var(--HD-green);
+            }
+        }
     }
 
     @media (max-width: 840px){
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 3em 10em 5em 1fr;
 
         .match-simple-item-date{
-            grid-column: span 2;
+            grid-column: span 3;
         }
         .match-simple-item-teams{
-            grid-column: span 2;
+            grid-column: span 3;
         }
         .match-simple-item-home-name{
             grid-row: 3;
@@ -428,13 +497,13 @@ section {
         }
         .match-simple-item-away-name{
             grid-row: 3;
-            grid-column: 2;
+            grid-column: 3;
             display: flex;
             justify-content: center;
             gap: 1em;
         }
         .match-simple-item-links{
-            grid-column: span 2;
+            grid-column: span 3;
             flex-direction: row;
         }
     }

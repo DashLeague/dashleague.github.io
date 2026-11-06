@@ -1,5 +1,5 @@
 <template>
-    <div class="view-toggle">
+    <div>
         <button
         :class="{ active: condensed }"
         @click="emit('update:condensed', true)"

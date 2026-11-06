@@ -23,3 +23,22 @@ export async function get_volunteers(): Promise<Volunteer[]|null> {
         return null;
     }
 }
+
+export async function get_seasons() {
+    try {
+        // fetch the seasons json data
+        let response = await fetch(
+            `/data/lookup/seasons.json`
+        );
+
+        if (await isResponseValidJson(response)) {
+            return await response.json();
+        }
+        else {
+            return null; // seasons not found
+        }
+    } catch (error){
+        console.error("err:", error);
+        return null;
+    }
+}

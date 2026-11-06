@@ -19,6 +19,12 @@ const routes = [
     component: MatchView
   },
   {
+    path: "/matches/season_:seasonID",
+    name: "season_matches",
+    component: MatchView,
+    props: true
+  },
+  {
     path: "/match/:matchID",
     name: "match page",
     component: MatchPageView,
