@@ -400,18 +400,19 @@ section {
     a{
         width: 100%;
         padding: 1em 3em;
-        border-width: 0 0 3px 0 !important;
+        border-width: 0 0 3px 0;
         background-color: transparent;
         color: white;
         transition: border-color 0.2s ease-in-out;
         border-color: gray; 
+        border-style: solid;
 
         &.selected{
             border-color: red; 
         }
     }
 
-    button:hover{
+    a:hover{
         background-color: rgba(255, 255, 255, 0.137);
     }
 }

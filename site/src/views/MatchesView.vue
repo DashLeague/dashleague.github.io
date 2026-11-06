@@ -5,9 +5,10 @@
       v-if="seasons"
       v-for="season in seasons"
       :to="`/matches/season_${season.season_id}`"
-      :class="{ selected: seasonID === season.season_id }"
+      :class="{ selected: Number(seasonID) === season.season_id }"
       >
       Season {{ season.season_id }}
+      <br>
       </router-link>
       <!-- <button>Season 3</button>
       <button>Season 4</button>
