@@ -10,15 +10,6 @@
       Season {{ season.season_id }}
       <br>
       </router-link>
-      <!-- <button>Season 3</button>
-      <button>Season 4</button>
-      <button>Season 5</button>
-      <button>Season 6</button>
-      <button>Season 7</button>
-      <button>Season 8</button>
-      <button>Season 9</button>
-      <button>Season 10</button>
-      <button class="selected">Season 11</button> -->
     </div>
     <br>
     <br>
@@ -49,7 +40,7 @@
       :team_away_winner="item.teams.away.winner"
       :team_away_color="item.teams.away.team_color"
     />
-    <MatchOverview
+    <MatchOverviewFull
       v-else
       v-for="item in matchesData"
       :match_id="item.match_id"
@@ -85,7 +76,7 @@ const props = defineProps({
   }
 })
 
-import MatchOverview from '../components/MatchSimpleItem.vue';
+import MatchOverviewFull from '../components/MatchSimpleItem.vue';
 import MatchOverviewCondensed from '../components/MatchSimpleItemCondensed.vue';
 import ViewToggle from '../components/DataViewToggle.vue'
 import { ref, onMounted, watch } from 'vue';
@@ -93,13 +84,14 @@ import { get_matches } from "../api/matches.ts";
 import { useRouter } from 'vue-router';
 import type { Season } from '@/obj/season.ts';
 import { get_seasons } from '@/api/misc.ts';
+import type { MatchOverview } from '@/obj/match.ts';
 
 
 const condensed_data = ref(false);
 
 const router = useRouter()
-const seasons = ref<Season[]>([])
-const matchesData = ref<any>(null)
+const seasons = ref<Season[] | null>([])
+const matchesData = ref<MatchOverview[] | null>([])
 const load_data = async () => {
   console.log(props.seasonID);
   const season_data = await get_seasons();

@@ -1,6 +1,7 @@
 // Internal API for miscellaneous stuff on the website
 import type { Volunteer } from "@/obj/misc.ts"
 import { isResponseValidJson } from "./util";
+import type { Season } from "@/obj/season";
 
 const BASE_URL = import.meta.env.BASE_URL;
 
@@ -24,7 +25,7 @@ export async function get_volunteers(): Promise<Volunteer[]|null> {
     }
 }
 
-export async function get_seasons() {
+export async function get_seasons(): Promise<Season[]|null> {
     try {
         // fetch the seasons json data
         let response = await fetch(

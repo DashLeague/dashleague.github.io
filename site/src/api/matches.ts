@@ -1,12 +1,12 @@
 // Internal Match API for the website
 
-import type { Match } from "@/obj/match";
+import type { Match, MatchOverview } from "@/obj/match";
 import { isResponseValidJson } from "./util";
 
 const BASE_URL = import.meta.env.BASE_URL;
 
 // Returns either match overview data or null
-export async function get_matches(season:number) {
+export async function get_matches(season:number): Promise<MatchOverview[] | null> {
     console.log(`GET MATCHES ${season}`)
     try {
         // fetch the seasons matches overview json data

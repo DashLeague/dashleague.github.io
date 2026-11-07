@@ -1,4 +1,4 @@
-import type { CondensedTeam } from "./team"
+import type { CondensedTeam, TeamMatchOverview } from "./team"
 import type { Round } from "./round"
 
 export type Match = {
@@ -14,6 +14,22 @@ export type Match = {
         away: CondensedTeam
     },
     rounds: Round[]
+}
+
+export type MatchOverview = {
+    match_id: String,
+    match_timestamp: Number,
+    season: Number,
+    cycle: Number,
+    forfeit: Boolean,
+    playoff: Boolean,
+    teams: {
+        home: TeamMatchOverview, 
+        away: TeamMatchOverview
+    }, 
+    metadata: {
+        vod_link: String
+    }
 }
 
 export type PlayerMatch = {
