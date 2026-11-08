@@ -1,6 +1,6 @@
 import type { Gamemode } from "./common"
 
 export type Map = {
-    name: String,
+    name: string,
     mode: Gamemode
 }
