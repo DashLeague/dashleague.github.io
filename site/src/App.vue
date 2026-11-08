@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import ScrollToTop from './components/ScrollToTop.vue';
+
 
 </script>
 
@@ -22,4 +24,5 @@
   <footer>
     © Dash League and its partners | Code licensed under BSD-3-Clause
   </footer>
+  <scroll-to-top/>
 </template>

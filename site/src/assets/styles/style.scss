@@ -384,6 +384,35 @@ section {
     }
 }
 
+.scroll-to-top{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 32px;
+    height: 32px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--HD-blue);
+    color: white;
+    background-image: url(/assets/up.svg);
+    background-position: center;
+
+    &:hover{
+        background-color: #2b92f1;
+    }
+}
+
+/* Fade animation using Vue's <Transition> */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 //   ,ad8888ba,    ,ad8888ba,    88b           d88  88888888ba   
 //  d8"'    `"8b  d8"'    `"8b   888b         d888  88      "8b  
 // d8'           d8'        `8b  88`8b       d8'88  88      ,8P  

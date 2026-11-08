@@ -6,7 +6,6 @@
             autoplay
             muted
             loop
-            aria-label="Dash League glitch logo"
             ></video>
             <div class="hero-overlay"></div>
         </div>
