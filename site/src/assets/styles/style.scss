@@ -506,6 +506,10 @@ section {
         .match-simple-item-links{
             grid-column: span 3;
             flex-direction: row;
+
+            .full {
+                width: 100%;
+            }
         }
     }
 }

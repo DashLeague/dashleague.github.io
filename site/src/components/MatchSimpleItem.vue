@@ -32,8 +32,17 @@
         <h1>[{{ team_away_score }}]</h1>
       </div>
       <div class="match-simple-item-links">
-        <router-link :to="`/match/${match_id}`">View Match Page</router-link>
-        <a class="Button" href="">View Stream</a>
+        <router-link
+        :to="`/match/${match_id}`"
+        :class="{
+          full: !match_vod_link
+        }"
+        >View Match Page</router-link>
+        <a
+        v-if="match_vod_link" 
+        :href="match_vod_link"
+        class="Button"
+        >View Stream</a>
       </div>
   </div>
 </template>
@@ -52,7 +61,9 @@ const props = defineProps({
   team_away_score: Number,
   team_away_winner: Boolean,
   team_away_color: String,
-  match_timestamp: Number
+  
+  match_timestamp: Number,
+  match_vod_link: String
 })
 
 // *1000 to take it from the miliseconds timestamps js and ts normally use to seconds
