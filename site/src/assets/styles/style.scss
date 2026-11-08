@@ -377,6 +377,13 @@ section {
 .toolbar{
     display: flex;
 }
+
+@media (max-width: 840px){
+    .wide-only{
+        display: none !important;
+    }
+}
+
 //   ,ad8888ba,    ,ad8888ba,    88b           d88  88888888ba   
 //  d8"'    `"8b  d8"'    `"8b   888b         d888  88      "8b  
 // d8'           d8'        `8b  88`8b       d8'88  88      ,8P  
@@ -386,6 +393,49 @@ section {
 //  Y8a.    .a8P  Y8a.    .a8P   88    `888'    88  88           
 //   `"Y8888Y"'    `"Y8888Y"'    88     `8'     88  88           
 
+.season-progress{
+    position: fixed;
+    left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    top: 10%;
+    bottom: 5%;
+    z-index: 2;
+    gap: 0.5em;
+
+    .seperator{
+        height: 100%;
+        width: 3px;
+        background-color: rgb(70, 70, 70);
+        border-radius: 15px;
+    }
+
+    .cursor{
+        --position: 0%;
+        --height: 15px;
+        width: 125%;
+        height: var(--height);
+        top: calc(
+            max(
+                min(var(--position), calc(100% - calc(var(--height) / 2)))    
+            , var(--height))
+            -
+            calc(var(--height) / 2)
+            );
+        position: absolute;
+        background-color: red;
+        opacity: 50%;
+        border-radius: 5px;
+        z-index: -1;
+    }
+
+    @media (max-width: 840px){
+        
+    }
+}
 
 .season-buttons{
     width: 100%;
@@ -417,7 +467,9 @@ section {
         background-color: rgba(255, 255, 255, 0.137);
     }
 
-
+    @media (max-width: 840px){
+        position: relative;
+    }
 }
 
 
