@@ -7,5 +7,6 @@ export type Season = {
 
 export type Cycle = {
     cycle_id: number
+    playoff: boolean
     matches: MatchOverview[]
 }
