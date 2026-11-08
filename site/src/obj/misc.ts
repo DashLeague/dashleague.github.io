@@ -1,3 +1,3 @@
 export type Volunteer = {
-    username: String
+    username: string
 }

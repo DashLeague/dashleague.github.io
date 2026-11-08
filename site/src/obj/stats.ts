@@ -3,7 +3,7 @@ import type { CondensedTeam } from "./team"
 
 
 export type SeasonData = {
-    season_id: Number
+    season_id: number
     // stats: OverallStats
     // matches: Array<MatchStatsBasic>
     rounds: Array<RoundStats>
@@ -36,7 +36,7 @@ export type RoundScore = {
     team: CondensedTeam,
     score: number,
     time: number,
-    winner: Boolean
+    winner: boolean
 }
 
 export type AggregatedStats = {

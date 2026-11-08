@@ -4,8 +4,8 @@ import type {
 } from "../obj/stats.ts"
 
 type PlayerData = {
-    player_id: String
-    player_name: String
+    player_id: string
+    player_name: string
     seasons: Array<SeasonData>
     aggregated_stats: AggregatedStats
 }

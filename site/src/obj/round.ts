@@ -2,10 +2,10 @@ import type { RoundStats, RoundScore } from "./stats"
 import type { Map } from "./map"
 
 export type Round = {
-    round_id: Number,
+    round_id: number,
     map: Map,
-    forfeit: Boolean,
-    time: Number,
+    forfeit: boolean,
+    time: number,
     results: {
         home: RoundScore,
         away: RoundScore

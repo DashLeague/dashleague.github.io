@@ -2,13 +2,13 @@ import type { CondensedTeam, TeamMatchOverview } from "./team"
 import type { Round } from "./round"
 
 export type Match = {
-    match_id: String,
-    season: Number,
-    cycle: Number,
-    playoff: Boolean,
-    forfeit: Boolean,
-    invalidated: Boolean,
-    match_timestamp: Number
+    match_id: string,
+    season: number,
+    cycle: number,
+    playoff: boolean,
+    forfeit: boolean,
+    invalidated: boolean,
+    match_timestamp: number
     teams: {
         home: CondensedTeam,
         away: CondensedTeam
@@ -17,25 +17,25 @@ export type Match = {
 }
 
 export type MatchOverview = {
-    match_id: String,
-    match_timestamp: Number,
-    season: Number,
-    cycle: Number,
-    forfeit: Boolean,
-    playoff: Boolean,
+    match_id: string,
+    match_timestamp: number,
+    season: number,
+    cycle: number,
+    forfeit: boolean,
+    playoff: boolean,
     teams: {
         home: TeamMatchOverview, 
         away: TeamMatchOverview
     }, 
     metadata: {
-        vod_link: String
+        vod_link: string
     }
 }
 
 export type PlayerMatch = {
-    match_id: String,
-    season: Number,
-    cycle: Number,
-    playoff: Boolean,
+    match_id: string,
+    season: number,
+    cycle: number,
+    playoff: boolean,
     rounds: Round[]
 }
