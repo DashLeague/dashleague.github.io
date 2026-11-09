@@ -9,3 +9,8 @@ type PlayerData = {
     seasons: Array<SeasonData>
     aggregated_stats: AggregatedStats
 }
+
+export type PlayerBasic = {
+    player_id: string
+    player_name: string
+}

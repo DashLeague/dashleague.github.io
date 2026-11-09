@@ -15,8 +15,6 @@ import ScrollToTop from './components/ScrollToTop.vue';
     <router-link to="/players">Players</router-link>
     
     <router-link to="/hall-of-champions">Hall Of Champions</router-link>
-
-    <router-link to="/timeline">Timeline</router-link>
   </nav>
   <main class="content">
     <router-view/>
