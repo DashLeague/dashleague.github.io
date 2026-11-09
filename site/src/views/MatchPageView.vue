@@ -1,5 +1,5 @@
 <template>
-  
+
   <!-- Header -->
   <div class="match-head">
 

@@ -349,7 +349,7 @@ section {
         }
         
         .player-list span{
-            color: white;
+            color: red;
             display: block;
             text-decoration: none;
 
@@ -527,7 +527,7 @@ section {
 
 .match-simple-item{
     border-radius: 15px;
-    background: linear-gradient(90deg,var(--home-color) 25%, var(--away-color) 75%);;
+    background: linear-gradient(90deg,var(--home-color) 25%, var(--away-color) 75%);
     display: grid;
     width: 100%;
     justify-content: space-evenly;
