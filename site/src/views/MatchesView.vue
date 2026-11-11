@@ -12,18 +12,6 @@
         <!-- <div class="toolbar">
       <ViewToggle v-model:condensed="condensed_data" />
     </div> -->
-        <div class="season-progress wide-only">
-            <template
-            v-for="cycle in cycles"
-            >
-            <p>Cycle {{ cycle.cycle_id }}</p>
-            <span
-            class="seperator"
-            ></span>
-            </template>
-            <p>Start</p>
-            <span class="cursor" id="season-cursor"></span>
-        </div>
         <div class="flex-list">
             <template v-for="cycle in cycles">
                 <h1>Cycle {{ cycle.cycle_id }} <span v-if="cycle.playoff">[Playoffs]</span></h1>
@@ -122,14 +110,4 @@ watch(
     () => load_data(),
     { immediate: true }
 )
-
-window.addEventListener('scroll', (): void => {
-    const scrollTop = window.scrollY; // Pixels scrolled down
-    const docHeight = document.documentElement.scrollHeight; // Total page height
-    const winHeight = window.innerHeight; // Height of visible viewport
-
-    const scrollPercent = (scrollTop / (docHeight - winHeight)) * 100;
-
-    document.getElementById("season-cursor")?.style.setProperty("--position", `${scrollPercent}%`);
-});
 </script>
