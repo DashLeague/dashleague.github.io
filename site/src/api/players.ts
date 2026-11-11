@@ -1,5 +1,6 @@
 // Internal Player API for the website
 
+import type { PlayerBasic } from "@/obj/player";
 import { isResponseValidJson } from "./util";
 
 const BASE_URL = import.meta.env.BASE_URL;
@@ -39,6 +40,27 @@ export async function get_player(playerID:string) {
                 return null;
             }
             return await response.json();
+        }
+    } catch (error){
+        console.error("err:", error);
+        return null;
+    }
+}
+
+// Returns either player data or null
+export async function get_players(season:number): Promise<PlayerBasic[] | null> {
+    console.log(`GET PLAYERS ${season}`)
+    try {
+        // fetch the seasons players json data
+        let response = await fetch(
+            `/data/players/s${encodeURIComponent(season)}_index.json`
+        );
+
+        if (await isResponseValidJson(response)) {
+            return await response.json();
+        }
+        else {
+            return null; // Players for specified season not found
         }
     } catch (error){
         console.error("err:", error);
