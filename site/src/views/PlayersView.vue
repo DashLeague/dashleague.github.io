@@ -12,10 +12,16 @@
         <!-- <div class="toolbar">
       <ViewToggle v-model:condensed="condensed_data" />
     </div> -->
-    <div>
-        <p
-        v-if="playersData"
-        v-for="player in playersData">{{ player.player_name }}</p>
+    <div 
+    v-if="playersData"
+    class="flex-list">
+        <template
+        v-for="player in playersData"
+        >
+            <div>
+                {{ player.player_name }}
+            </div>
+        </template>
     </div>
         <br>
         <br>
@@ -69,4 +75,5 @@ watch(
     () => load_data(),
     { immediate: true }
 )
+
 </script>

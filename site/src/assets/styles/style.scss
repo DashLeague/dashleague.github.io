@@ -395,6 +395,11 @@ section {
         transform: rotate(30deg);
         filter: drop-shadow();
     }
+
+    &.small{
+        width: 10vmin;
+        height: 10vmin;
+    }
 }
 
 .toolbar{
@@ -409,7 +414,7 @@ section {
 
 .scroll-to-top{
     position: fixed;
-    bottom: 1em;
+    bottom: 3em;
     right: 1em;
     width: 32px;
     height: 32px;
@@ -422,6 +427,10 @@ section {
 
     &:hover{
         background-color: #2b92f1;
+    }
+
+    @media (max-width: 840px){
+        width: 75px;
     }
 }
 
@@ -436,6 +445,24 @@ section {
   opacity: 0;
 }
 
+
+.search-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+
+    input{
+        width: 90%;
+        height: 3em;
+        border-radius: 10px;
+        background-color: var(--card-dark);
+        color: var(--text-color);
+        padding: 1em;
+        font-size: 12pt;
+        border: none;
+    }
+}
 //   ,ad8888ba,    ,ad8888ba,    88b           d88  88888888ba   
 //  d8"'    `"8b  d8"'    `"8b   888b         d888  88      "8b  
 // d8'           d8'        `8b  88`8b       d8'88  88      ,8P  
@@ -445,47 +472,41 @@ section {
 //  Y8a.    .a8P  Y8a.    .a8P   88    `888'    88  88           
 //   `"Y8888Y"'    `"Y8888Y"'    88     `8'     88  88           
 
-.season-progress{
-    position: fixed;
-    left: 1em;
+.team-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 1.5em;
+    padding: 1em 1em;
+    border-radius: 15px;
+    background: linear-gradient(0deg, var(--team-color) 0%, var(--background) 100%);
+    font-size: 13pt;
+}
+
+.team-ranks{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    width: fit-content;
-    top: 10%;
-    bottom: 5%;
-    z-index: 2;
-    gap: 0.5em;
 
-    .seperator{
-        height: 100%;
-        width: 3px;
-        background-color: rgb(70, 70, 70);
-        border-radius: 15px;
-    }
+    .team-rank{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+        margin-bottom: 4em;
 
-    .cursor{
-        --position: 0%;
-        --height: 15px;
-        width: 125%;
-        height: var(--height);
-        top: calc(
-            max(
-                min(var(--position), calc(100% - calc(var(--height) / 2)))    
-            , var(--height))
-            -
-            calc(var(--height) / 2)
-            );
-        position: absolute;
-        background-color: red;
-        opacity: 50%;
-        border-radius: 5px;
-        z-index: -1;
-    }
+        @media (max-width: 840px){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
 
-    @media (max-width: 840px){
-        
+        a{
+            color: var(--text-color);
+            text-decoration: none;
+        }
     }
 }
 
@@ -646,6 +667,8 @@ section {
     width: 90%;
     display: flex;
     align-items: center;
+
+    flex-wrap: wrap;
     gap: 1em;
 }
 

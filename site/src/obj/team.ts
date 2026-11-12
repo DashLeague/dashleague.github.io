@@ -11,10 +11,21 @@ export type SeasonChampionTeam = {
     players: PlayerBasic[]
 }
 
+export type SeasonTeamList = {
+    dasher?: CondensedTeam[]
+    sprinter?: CondensedTeam[]
+    walker?: CondensedTeam[]
+}
+
 export type TeamMatchOverview = {
     team_id: string
     team_name: string
     team_color: string
     score: number
     winner: boolean
+}
+
+export type TeamFull = {
+    team: CondensedTeam
+    players: PlayerBasic[]
 }

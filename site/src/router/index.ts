@@ -7,6 +7,7 @@ import TeamPageView from "../views/TeamPageView.vue"
 import ChampView from "../views/HallOfChampions.vue"
 import Error404View from "../views/Error404View.vue"
 import PlayersView from '@/views/PlayersView.vue'
+import TeamsView from '@/views/TeamsView.vue'
 
 const routes = [
   {
@@ -29,6 +30,18 @@ const routes = [
     path: "/match/:matchID",
     name: "match page",
     component: MatchPageView,
+    props: true
+  },
+  {
+    path: "/teams",
+    name: "teams",
+    component: TeamsView,
+    props: true
+  },
+  {
+    path: "/teams/season_:seasonID",
+    name: "season_teams",
+    component: TeamsView,
     props: true
   },
   {
