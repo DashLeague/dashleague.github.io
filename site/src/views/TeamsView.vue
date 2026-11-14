@@ -19,21 +19,27 @@
         v-if="teamsData.dasher"
         >
         <h1>Dasher</h1>
-        <TeamRank :teams="teamsData.dasher"/>
+        <TeamRank
+        :teams="teamsData.dasher"
+        :season="seasonID"/>
         </template>
 
         <template
         v-if="teamsData.sprinter"
         >
         <h1>Sprinter</h1>
-        <TeamRank :teams="teamsData.sprinter"/>
+        <TeamRank
+        :teams="teamsData.sprinter"
+        :season="seasonID"/>
         </template>
 
         <template
         v-if="teamsData.walker"
         >
         <h1>Walker</h1>
-        <TeamRank :teams="teamsData.walker"/>
+        <TeamRank
+        :teams="teamsData.walker"
+        :season="seasonID"/>
         </template>
     </div>
         <br>

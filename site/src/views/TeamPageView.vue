@@ -33,10 +33,11 @@
   v-if="current_season_data">
     <h1>Players this season</h1>
     <div class="player-rank">
-      <p
+      <router-link
       v-for="player in current_season_data.players"
-      class="player-card"
-      >{{ player.player_name }}</p>
+      :class="{'player-card':true}"
+      :to="`/player/${player.player_id}/season_${current_season}`"
+      >{{ player.player_name }}</router-link>
     </div>
     <h1>Matches</h1>
     <MatchSimpleItem
