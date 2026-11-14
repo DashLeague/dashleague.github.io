@@ -30,14 +30,20 @@
   </div>
   <div
   class="flex-list"
-  v-if="current_season_data">
+  v-if="current_season_data && teamData"
+  :style="{
+        '--team-color': `#${teamData.team.team_color}`
+            }">
     <h1>Players this season</h1>
     <div class="player-rank">
       <router-link
       v-for="player in current_season_data.players"
       :class="{'player-card':true}"
       :to="`/player/${player.player_id}/season_${current_season}`"
-      >{{ player.player_name }}</router-link>
+      >
+      <img src="/assets/robots/crossedarms/blue/helmet_0/pistol/pistol_pistol.png" alt="" height="72px">
+      <h3>{{ player.player_name }}</h3>
+    </router-link>
     </div>
     <h1>Matches</h1>
     <MatchSimpleItem

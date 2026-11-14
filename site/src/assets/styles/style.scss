@@ -359,8 +359,7 @@ section {
 
 .team-logo{
     position: relative;
-    width: 30vmin;
-    height: 30vmin;
+    width: -webkit-fill-available;
     max-height: 100%;
     object-fit: contain;
     aspect-ratio: 1/1;
@@ -755,13 +754,31 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-
+    justify-content: center;
 
     .player-card{
         padding: 1em 2em;
-        background-color: var(--card-dark);
-        border: var(--card) 2px solid;
         border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(315deg, var(--team-color) 0%, var(--background) 100%);
+    }
+
+    @media (max-width: 840px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .player-card:nth-child(1n){
+            background: linear-gradient(-90deg, var(--team-color) 0%, var(--background) 100%);
+        }
+        .player-card:nth-child(2n){
+            background: linear-gradient(90deg, var(--team-color) 0%, var(--background) 100%);
+        }
+        .player-card{
+            padding: .5em 1em;
+        }
     }
 }
 
