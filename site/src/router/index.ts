@@ -51,6 +51,12 @@ const routes = [
     props: true
   },
   {
+    path: "/team/:teamID/season_:seasonID",
+    name: "team page season",
+    component: TeamPageView,
+    props: true
+  },
+  {
     path: "/players",
     name: "players",
     component: PlayersView,

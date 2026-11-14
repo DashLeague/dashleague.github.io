@@ -3,69 +3,57 @@
 <template>
   <div class="match-simple-item"
   :style="{
-    '--home-color': `#${team_home_color}`,
-    '--away-color': `#${team_away_color}`
+    '--home-color': `#${match.teams.home.team_color}`,
+    '--away-color': `#${match.teams.away.team_color}`
   }"
   >
       <h3 class="match-simple-item-date">{{ match_time }}</h3>
       <div class="match-simple-item-home-name">
-        <h1>{{ team_home_name }}</h1>
-        <h1>[{{ team_home_score }}]</h1>
+        <h1>{{ match.teams.home.team_name }}</h1>
+        <h1>[{{ match.teams.home.score }}]</h1>
       </div>
       <div class="match-simple-item-teams">
         <div
           class="team-logo"
-          :class="{ 'crown': team_home_winner }"
+          :class="{ 'crown': match.teams.home.winner }"
           >
-          <img :src="`/assets/team_logos/${team_home_id}.png`" width="100%" height="auto" loading="lazy">
+          <img :src="`/assets/team_logos/${match.teams.home.team_id}.png`" width="100%" height="auto" loading="lazy">
         </div>
         <h1>VS</h1>
         <div
           class="team-logo"
-          :class="{ 'crown': team_away_winner }"
+          :class="{ 'crown': match.teams.away.winner }"
           >
-          <img :src="`/assets/team_logos/${team_away_id}.png`" width="100%" height="auto" loading="lazy">
+          <img :src="`/assets/team_logos/${match.teams.away.team_id}.png`" width="100%" height="auto" loading="lazy">
         </div>
       </div>
       <div class="match-simple-item-away-name">
-        <h1>{{ team_away_name }}</h1>
-        <h1>[{{ team_away_score }}]</h1>
+        <h1>{{ match.teams.away.team_name }}</h1>
+        <h1>[{{ match.teams.away.score }}]</h1>
       </div>
       <div class="match-simple-item-links">
         <router-link
-        :to="`/match/${match_id}`"
+        :to="`/match/${match.match_id}`"
         :class="{
-          full: !match_vod_link
+          full: !match.metadata.vod_link
         }"
         >View Match Page</router-link>
         <a
-        v-if="match_vod_link" 
-        :href="match_vod_link"
+        v-if="match.metadata.vod_link" 
+        :href="match.metadata.vod_link"
         class="Button"
         >View Stream</a>
       </div>
   </div>
 </template>
 
-<script setup>
-const props = defineProps({
-  match_id: String,
-  team_home_id: String,
-  team_home_name: String,
-  team_home_score: Number,
-  team_home_winner: Boolean,
-  team_home_color: String,
+<script setup lang="ts">
+import type { MatchOverview } from "@/obj/match.ts"
 
-  team_away_id: String,
-  team_away_name: String,
-  team_away_score: Number,
-  team_away_winner: Boolean,
-  team_away_color: String,
-  
-  match_timestamp: Number,
-  match_vod_link: String
-})
+const props = defineProps<{
+    match: MatchOverview
+}>();
 
 // *1000 to take it from the miliseconds timestamps js and ts normally use to seconds
-const match_time = new Date(props.match_timestamp*1000).toLocaleString();
+const match_time = new Date(props.match.match_timestamp*1000).toLocaleString();
 </script>

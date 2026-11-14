@@ -1,3 +1,4 @@
+import type { MatchOverview } from "./match"
 import type { PlayerBasic } from "./player"
 
 export type CondensedTeam = {
@@ -25,7 +26,13 @@ export type TeamMatchOverview = {
     winner: boolean
 }
 
-export type TeamFull = {
+export type TeamPageData = {
     team: CondensedTeam
+    seasons: TeamSeason[]
+}
+
+export type TeamSeason = {
+    season_id: number,
     players: PlayerBasic[]
+    matches: MatchOverview[]
 }

@@ -750,3 +750,42 @@ section {
     text-align: center;
 }
 }
+
+.player-rank{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+
+    .player-card{
+        padding: 1em 2em;
+        background-color: var(--card-dark);
+        border: var(--card) 2px solid;
+        border-radius: 10px;
+    }
+}
+
+.stat-rank{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+    .stat-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--card-dark);
+        padding: 1em;
+        border-radius: 10px;
+        min-width: fit-content;
+        max-width: 10%;
+        flex: auto;
+
+        h2{
+            width: 100%;
+            text-align: center;
+            border-bottom: 2px solid var(--card);
+        }
+    }
+}

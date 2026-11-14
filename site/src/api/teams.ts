@@ -1,12 +1,12 @@
 // Internal Player API for the website
 
-import type { SeasonTeamList } from "@/obj/team";
+import type { SeasonTeamList, TeamPageData } from "@/obj/team";
 import { isResponseValidJson } from "./util";
 
 const BASE_URL = import.meta.env.BASE_URL;
 
 // Returns either team data or null
-export async function get_team(TeamID:string) {
+export async function get_team(TeamID:string): Promise<TeamPageData | null> {
     try {
         // fetch the team json data
         let response = await fetch(
