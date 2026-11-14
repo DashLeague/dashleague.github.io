@@ -1,0 +1,748 @@
+{
+    "team": {
+        "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+        "team_name": "THVS",
+        "team_color": "2d2826"
+    },
+    "seasons": [
+        {
+            "season_id": 5,
+            "players": [
+                {
+                    "player_id": "69dfdbfc-528f-4ca3-8b14-116becc48244",
+                    "player_name": "Void"
+                },
+                {
+                    "player_id": "d2f01016-a31d-4dcd-813c-72ff9c3e4e1a",
+                    "player_name": "Count Ducky"
+                },
+                {
+                    "player_id": "3b1b020e-91e0-48ef-8174-a10cdcfbaab7",
+                    "player_name": "Slasher"
+                },
+                {
+                    "player_id": "56d650d2-743f-465e-bc7f-7aa99fa388c6",
+                    "player_name": "GraveDigger"
+                },
+                {
+                    "player_id": "d6e6877c-3c30-4d49-a120-445ec4b35564",
+                    "player_name": "Tylenol"
+                },
+                {
+                    "player_id": "0db3aaa2-e2e2-4808-aa52-5d23b754c93a",
+                    "player_name": "Fork2plug"
+                },
+                {
+                    "player_id": "d874597f-6207-4d7d-9052-82e94f3cce29",
+                    "player_name": "Jason Bourne"
+                },
+                {
+                    "player_id": "8ade9df7-f4c0-4caa-88cc-a467a7faf653",
+                    "player_name": "Sugar"
+                },
+                {
+                    "player_id": "030d4a73-96a4-4ba0-90b0-1c44e76baad5",
+                    "player_name": "TAK"
+                },
+                {
+                    "player_id": "23a5ffc2-5031-4b8e-bc7a-ca8691fe3ff8",
+                    "player_name": "AssassinKing"
+                },
+                {
+                    "player_id": "16ce3a21-6eb0-44c6-aec6-c4622b2fda5f",
+                    "player_name": "counterindigo"
+                },
+                {
+                    "player_id": "9e88ec21-2e1b-4391-8533-604932f2e9ba",
+                    "player_name": "Arty"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "f1057195-91c5-4219-822d-b542735c0d50",
+                    "match_timestamp": 1681518699.0,
+                    "season": 5,
+                    "cycle": 6,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "fc63278e-4834-4448-adad-7fc451b2f3af",
+                            "team_name": "EMU",
+                            "team_color": "1a2327",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "5df5bd4d-aaa0-4e76-a02a-aaa6ef521795",
+                    "match_timestamp": 1680377321.0,
+                    "season": 5,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "d411f2b9-2162-4acc-94d5-6429bbb71804",
+                            "team_name": "F1R3",
+                            "team_color": "5c2a10",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "55a0409b-a0b2-4c4d-8198-0f666ee995c2",
+                    "match_timestamp": 1679254583.0,
+                    "season": 5,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 1,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "d411f2b9-2162-4acc-94d5-6429bbb71804",
+                            "team_name": "F1R3",
+                            "team_color": "5c2a10",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "0c886fa6-098b-4899-8852-d3a592d1ea94",
+                    "match_timestamp": 1676838973.0,
+                    "season": 5,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "d5545c41-23a2-462f-9b84-c4ef34dac5be",
+                            "team_name": "FaiR",
+                            "team_color": "4b4642",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "9f7e2f94-32d6-435b-802d-cd6db6520b89",
+                    "match_timestamp": 1681675773.0,
+                    "season": 5,
+                    "cycle": 6,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 1,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "37b958e2-3aa0-4e5d-b82e-7bda866a9673",
+                            "team_name": "TBDi",
+                            "team_color": "3e3e35",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "3261f348-d839-40e8-865e-682dca616394",
+                    "match_timestamp": 1679272153.0,
+                    "season": 5,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "02452ce5-8f62-44b4-a09b-ecff7167669b",
+                            "team_name": "BNDT",
+                            "team_color": "1a1d1a",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "672ef55c-f21f-4414-9123-d841f6720dba",
+                    "match_timestamp": 1680467744.0,
+                    "season": 5,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "4e7da30e-6a12-46b5-bde4-bb067db1394e",
+                            "team_name": "HAXX",
+                            "team_color": "122026",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "f1461c96-cf25-4df0-9d08-1afb75adf524",
+                    "match_timestamp": 1674302400.0,
+                    "season": 5,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "fc63278e-4834-4448-adad-7fc451b2f3af",
+                            "team_name": "EMU",
+                            "team_color": "1a2327",
+                            "score": 1,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "06524f97-2199-44cd-ab69-acac8569e9d2",
+                    "match_timestamp": 1676846107.0,
+                    "season": 5,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "3d188410-ce08-4dbb-bce6-cfd7a9c3f4f0",
+                            "team_name": "team",
+                            "team_color": "4a201f",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "8578216e-6113-42b0-8ec5-d237fbd66b24",
+                    "match_timestamp": 1674264340.0,
+                    "season": 5,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "fcc99b4e-464b-4b77-b6dd-e05223206e27",
+                            "team_name": "KNHT",
+                            "team_color": "6b545f",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "8f6e4d94-1916-4ec4-9a33-694d8fb348c1",
+                    "match_timestamp": 1678066757.0,
+                    "season": 5,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "caf214cb-e3a1-4f4b-9640-a5a5674e24ae",
+                            "team_name": "LMB0",
+                            "team_color": "4c171b",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "0a2ff10a-fad4-47fb-9c90-b03f55f2ce48",
+                    "match_timestamp": 1677803736.0,
+                    "season": 5,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "e8adeb18-d777-4920-ba7e-b721c1471406",
+                            "team_name": "NOC",
+                            "team_color": "281d3e",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                }
+            ]
+        },
+        {
+            "season_id": 6,
+            "players": [
+                {
+                    "player_id": "7f250240-1b93-4a31-bd06-49497e472dcd",
+                    "player_name": "xZOMBIE MANx"
+                },
+                {
+                    "player_id": "8b0794be-fa5a-4790-a895-b44fb51a490d",
+                    "player_name": "Knockout"
+                },
+                {
+                    "player_id": "fefc1dc6-b9b9-411e-bf8a-e6d043fa95d7",
+                    "player_name": "AJLBlackGhoul"
+                },
+                {
+                    "player_id": "12555dd9-7d2e-4a02-b85c-5513de67acca",
+                    "player_name": "LobsterMaster"
+                },
+                {
+                    "player_id": "697b30e7-70af-497e-8ba0-705337277a7f",
+                    "player_name": "QuikDrawMcGraw"
+                },
+                {
+                    "player_id": "11e6f4b2-db62-43cd-bba0-c22a9a0fda83",
+                    "player_name": "Aluno"
+                },
+                {
+                    "player_id": "d6e6877c-3c30-4d49-a120-445ec4b35564",
+                    "player_name": "Tylenol"
+                },
+                {
+                    "player_id": "4d211d8b-9f05-4383-b82b-13a264609cae",
+                    "player_name": "Sunless"
+                },
+                {
+                    "player_id": "fe6719f1-533d-4a18-a09c-51e155a0d267",
+                    "player_name": "Buzzard Goose"
+                },
+                {
+                    "player_id": "09d56b48-a020-489f-a213-790830899647",
+                    "player_name": "Dazlah"
+                },
+                {
+                    "player_id": "763c40ea-b774-4c43-b91a-29746da551a7",
+                    "player_name": "BBL_Huddy"
+                },
+                {
+                    "player_id": "5e266241-ad7b-4fe1-b110-b759f0e5d97d",
+                    "player_name": "GarbageMan"
+                },
+                {
+                    "player_id": "522e3f79-3bcd-4993-94ff-714bc2c35680",
+                    "player_name": "StonedBread"
+                },
+                {
+                    "player_id": "8f4f9857-687f-4b25-b0d4-dc4f131392b9",
+                    "player_name": "vanta"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "648a5715-1103-410c-95a4-efbe1971f8af",
+                    "match_timestamp": 1694991605.0,
+                    "season": 6,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "02452ce5-8f62-44b4-a09b-ecff7167669b",
+                            "team_name": "BNDT",
+                            "team_color": "1a1d1a",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "d8531aa2-6730-4fc4-90a7-e651d05832e8",
+                    "match_timestamp": 1692563263.0,
+                    "season": 6,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "d11826c4-d436-4087-acd8-269718eb2436",
+                            "team_name": "IMTL",
+                            "team_color": "2a253c",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "c0394e24-02cf-401a-85db-2d7efe558238",
+                    "match_timestamp": 1690740173.0,
+                    "season": 6,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "d411f2b9-2162-4acc-94d5-6429bbb71804",
+                            "team_name": "F1R3",
+                            "team_color": "5c2a10",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "2dfde209-2daa-440f-bece-8803bd0e8da6",
+                    "match_timestamp": 1696121800.0,
+                    "season": 6,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "fc63278e-4834-4448-adad-7fc451b2f3af",
+                            "team_name": "EMU",
+                            "team_color": "1a2327",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "c8020d30-a365-48f0-839e-a5ffa774d4a1",
+                    "match_timestamp": 1693687104.0,
+                    "season": 6,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "4e7da30e-6a12-46b5-bde4-bb067db1394e",
+                            "team_name": "HAXX",
+                            "team_color": "122026",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "a0c429f8-8577-41e7-bb93-7e3a8e97dac6",
+                    "match_timestamp": 1696194240.0,
+                    "season": 6,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "37b958e2-3aa0-4e5d-b82e-7bda866a9673",
+                            "team_name": "TBDi",
+                            "team_color": "3e3e35",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "5ad60ba7-f260-4f95-85c7-676d6837fa99",
+                    "match_timestamp": 1697243876.0,
+                    "season": 6,
+                    "cycle": 6,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 1,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "f60663b2-39c1-4b62-98c6-4974af89451e",
+                            "team_name": "STHX",
+                            "team_color": "130d22",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "66549848-c3f5-4a03-b3cd-22c1e7b0887a",
+                    "match_timestamp": 1697416238.0,
+                    "season": 6,
+                    "cycle": 7,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "6babd576-d7cf-4003-9b16-e11c43171c00",
+                            "team_name": "BSRK",
+                            "team_color": "421b17",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "01ba01cf-30c0-4674-ae74-9c2799dde6c0",
+                    "match_timestamp": 1692491325.0,
+                    "season": 6,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "70fa5e98-4ef5-4c7f-b15b-f48a9e7e25d3",
+                            "team_name": "SITH",
+                            "team_color": "271f19",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "56e9d229-ba33-4be2-bf39-60aeadb0e452",
+                    "match_timestamp": 1694912709.0,
+                    "season": 6,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "d2fc9ab8-65fb-4177-bc3b-b5e00964d58a",
+                            "team_name": "V",
+                            "team_color": "0c0215",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "52cefde1-bc2b-4297-afb5-fc79a7d6c1df",
+                    "match_timestamp": 1693765455.0,
+                    "season": 6,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "c836ef7a-d2f4-4341-9fc2-e072d35e82dc",
+                            "team_name": "HUSH",
+                            "team_color": "5a6058",
+                            "score": 1,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "f60a361a-87c0-4366-be62-3ae73e91f26f",
+                            "team_name": "THVS",
+                            "team_color": "2d2826",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                }
+            ]
+        }
+    ]
+}

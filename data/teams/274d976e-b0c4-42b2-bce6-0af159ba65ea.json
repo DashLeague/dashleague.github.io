@@ -1,0 +1,806 @@
+{
+    "team": {
+        "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+        "team_name": "HOTU",
+        "team_color": "c2b5b6"
+    },
+    "seasons": [
+        {
+            "season_id": 3,
+            "players": [
+                {
+                    "player_id": "0aee07b7-d5b3-41e9-9ebb-13f106b5a778",
+                    "player_name": "D-Puppy"
+                },
+                {
+                    "player_id": "34d97aca-ff13-4e27-b6c7-4203e3a1e287",
+                    "player_name": "Semp"
+                },
+                {
+                    "player_id": "eb984f75-a3d0-4860-83cd-18a37b3050c9",
+                    "player_name": "Daniel tiger"
+                },
+                {
+                    "player_id": "2f63dc1c-a1fa-48a5-863f-5c3ea92991f8",
+                    "player_name": "Some nerd"
+                },
+                {
+                    "player_id": "399ea0d2-65fc-461a-b6ae-7c140036f83c",
+                    "player_name": "Tattarattat"
+                },
+                {
+                    "player_id": "2f9cb49b-df5d-48c0-9178-64e53b7a9c28",
+                    "player_name": "NOeCORY"
+                },
+                {
+                    "player_id": "6fdd12e8-c88a-4c69-b247-2d5e8e65544e",
+                    "player_name": "Goblin 9V"
+                },
+                {
+                    "player_id": "4fd0e4e1-ed53-431f-b2cd-5fb39835f00b",
+                    "player_name": "AdoptionPapers"
+                },
+                {
+                    "player_id": "18c4c319-6341-4cfb-a9be-6f66cee6f428",
+                    "player_name": "teaminsane"
+                },
+                {
+                    "player_id": "ee5468b9-16f6-4cfa-ab71-87e871920817",
+                    "player_name": "Fade"
+                },
+                {
+                    "player_id": "649e25a7-8ebb-4a7b-94b6-c3d39ae57abf",
+                    "player_name": "QDruid"
+                },
+                {
+                    "player_id": "d7765bc3-812a-4e6b-aa56-ce474d46ef8c",
+                    "player_name": "PureBlood"
+                },
+                {
+                    "player_id": "1ff4db15-792f-439c-98e0-c40e54f06627",
+                    "player_name": "BigBadBrad"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "26095d07-eadf-4a0b-8ef1-c474ee7eadb9",
+                    "match_timestamp": 1629682338.0,
+                    "season": 3,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "88d89f4e-2d35-45aa-8168-dcaf9e5c9d5c",
+                            "team_name": "ARC",
+                            "team_color": "29274e",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "24ee1071-0d82-4133-b680-3652e0f78837",
+                    "match_timestamp": 1632659305.0,
+                    "season": 3,
+                    "cycle": 6,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "37b958e2-3aa0-4e5d-b82e-7bda866a9673",
+                            "team_name": "TBDi",
+                            "team_color": "3e3e35",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "54a92778-a8f6-4541-9add-dc1247db8e74",
+                    "match_timestamp": 1629057740.0,
+                    "season": 3,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 1,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "fcf7f019-c6e2-4e10-8537-1d057156b8ee",
+                            "team_name": "FuRy",
+                            "team_color": "7c5545",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "7465b20e-4669-4445-ad8d-3bd15c706a15",
+                    "match_timestamp": 1630805585.0,
+                    "season": 3,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "cb108645-db1c-41af-a3fb-1dcf4350f502",
+                            "team_name": "BLTZ",
+                            "team_color": "7d6855",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "de5ffb0a-b35e-4420-b186-d1ff889f25fd",
+                    "match_timestamp": 1625921745.0,
+                    "season": 3,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "326d0444-d19e-4f57-97c2-6fba7d760f77",
+                            "team_name": "PHNX",
+                            "team_color": "0a0d16",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "de7a2189-df75-4e12-9102-fa6cb2c58bef",
+                    "match_timestamp": 1629671178.0,
+                    "season": 3,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "be23862d-e2b1-49d2-b382-1cc7b7cb1cfa",
+                            "team_name": "AP3X",
+                            "team_color": "1b1a20",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "f5fc849b-717e-408a-8e37-3b6572aeb24d",
+                    "match_timestamp": 1628296130.0,
+                    "season": 3,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "f60663b2-39c1-4b62-98c6-4974af89451e",
+                            "team_name": "STHX",
+                            "team_color": "130d22",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "5cdcabc7-524f-4592-8fb4-9bb6026308f3",
+                    "match_timestamp": 1627773858.0,
+                    "season": 3,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "fa3c1a80-03f2-411f-be97-c548ed2328d3",
+                            "team_name": "ACID",
+                            "team_color": "606764",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "424f82a3-de5e-45f8-a5fd-68031f8ebaeb",
+                    "match_timestamp": 1632565464.0,
+                    "season": 3,
+                    "cycle": 6,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 1,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "befb6a51-dc07-4c7a-a4b1-e147de16a101",
+                            "team_name": "L1FE",
+                            "team_color": "154f56",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "55bc0b7c-246d-4c48-a63c-0044870b43af",
+                    "match_timestamp": 1630875821.0,
+                    "season": 3,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "b9141c29-05c9-419b-a5de-6eb0e30ff3b1",
+                            "team_name": "DARK",
+                            "team_color": "30313a",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "799c172d-e6ec-4091-a8b7-68403fd497c1",
+                    "match_timestamp": 1626287135.0,
+                    "season": 3,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "c7816fe3-be02-4971-a393-0b619242d67b",
+                            "team_name": "OTHR",
+                            "team_color": "252a22",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "38cb9360-bd08-4a19-ad86-6eab3c0f229b",
+                    "match_timestamp": 1627759284.0,
+                    "season": 3,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "f82628b7-9bfa-4226-a894-1f9231fa13d9",
+                            "team_name": "SPNV",
+                            "team_color": "59404d",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                }
+            ]
+        },
+        {
+            "season_id": 4,
+            "players": [
+                {
+                    "player_id": "d7765bc3-812a-4e6b-aa56-ce474d46ef8c",
+                    "player_name": "PureBlood"
+                },
+                {
+                    "player_id": "649e25a7-8ebb-4a7b-94b6-c3d39ae57abf",
+                    "player_name": "QDruid"
+                },
+                {
+                    "player_id": "c7977446-f8e0-4e93-b4cc-086fb6f2704f",
+                    "player_name": "Rage"
+                },
+                {
+                    "player_id": "2f9cb49b-df5d-48c0-9178-64e53b7a9c28",
+                    "player_name": "NOeCORY"
+                },
+                {
+                    "player_id": "8ccb4e60-f585-4c8a-8c6c-841586036836",
+                    "player_name": "Toxix"
+                },
+                {
+                    "player_id": "399ea0d2-65fc-461a-b6ae-7c140036f83c",
+                    "player_name": "Tattarattat"
+                },
+                {
+                    "player_id": "1ff4db15-792f-439c-98e0-c40e54f06627",
+                    "player_name": "BigBadBrad"
+                },
+                {
+                    "player_id": "6fdd12e8-c88a-4c69-b247-2d5e8e65544e",
+                    "player_name": "Goblin 9V"
+                },
+                {
+                    "player_id": "18c4c319-6341-4cfb-a9be-6f66cee6f428",
+                    "player_name": "teaminsane"
+                },
+                {
+                    "player_id": "aa75563a-b39e-4575-be9a-81580a88e464",
+                    "player_name": "Sapphire"
+                },
+                {
+                    "player_id": "e5a03a79-8f93-47bc-bc93-a496a8957067",
+                    "player_name": "Blix"
+                },
+                {
+                    "player_id": "10c10be0-353c-456a-96f5-d333e6dd128f",
+                    "player_name": "LeoPhoto"
+                },
+                {
+                    "player_id": "0aee07b7-d5b3-41e9-9ebb-13f106b5a778",
+                    "player_name": "D-Puppy"
+                },
+                {
+                    "player_id": "b0fff9e0-1545-48b2-ad1f-9ed32213cfa2",
+                    "player_name": "Bill-Lumbergh"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "bbbf0a8f-c469-4226-92eb-b29da380d673",
+                    "match_timestamp": 1648774908.0,
+                    "season": 4,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "caf214cb-e3a1-4f4b-9640-a5a5674e24ae",
+                            "team_name": "LMB0",
+                            "team_color": "4c171b",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "bc6c767e-7146-44f8-8a4b-2f336c15704d",
+                    "match_timestamp": 1651451690.0,
+                    "season": 4,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "cb108645-db1c-41af-a3fb-1dcf4350f502",
+                            "team_name": "BLTZ",
+                            "team_color": "7d6855",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "5b10b65d-a4eb-4198-bbab-4f64b6634207",
+                    "match_timestamp": 1653615626.0,
+                    "season": 4,
+                    "cycle": 6,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "e960a65e-94aa-4852-abab-9030d217ecfc",
+                            "team_name": "M0ST",
+                            "team_color": "3c3d5b",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "7b32e39f-d77e-455a-9b01-a6ae5a02eb1c",
+                    "match_timestamp": 1647728566.0,
+                    "season": 4,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "df3e4cd5-8d90-4a04-b618-0d6dde99a9f8",
+                            "team_name": "D",
+                            "team_color": "24271a",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "220b2806-63f2-41ea-a173-23701fda4452",
+                    "match_timestamp": 1653854607.0,
+                    "season": 4,
+                    "cycle": 6,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "fcf7f019-c6e2-4e10-8537-1d057156b8ee",
+                            "team_name": "FuRy",
+                            "team_color": "7c5545",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "ea506572-9246-491c-914e-00d16948a642",
+                    "match_timestamp": 1650223869.0,
+                    "season": 4,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "73444531-7de3-4073-9e5a-ce23a132e57e",
+                            "team_name": "BL%D",
+                            "team_color": "cec8c1",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "261d6063-a82f-4348-b9fa-13fa903d2db1",
+                    "match_timestamp": 1652661014.0,
+                    "season": 4,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 1,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "9f3b9cf4-b87d-4d58-8075-df31562dcee6",
+                            "team_name": "blck",
+                            "team_color": "000000",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "5fc4f7c1-7935-4835-9e66-70961217aff6",
+                    "match_timestamp": 1654821464.0,
+                    "season": 4,
+                    "cycle": 6,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "e960a65e-94aa-4852-abab-9030d217ecfc",
+                            "team_name": "M0ST",
+                            "team_color": "3c3d5b",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "f8398c82-3200-497c-ae16-ada720bb88a0",
+                    "match_timestamp": 1651434422.0,
+                    "season": 4,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "aceff9de-9d34-44eb-acec-f9d51f401217",
+                            "team_name": "FAKE",
+                            "team_color": "616758",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "978ead88-e0d8-4520-94dc-dbd5a365e426",
+                    "match_timestamp": 1647216481.0,
+                    "season": 4,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "0723df1d-9efa-4a60-9d39-8e6b6501a652",
+                            "team_name": "LOOP",
+                            "team_color": "251c43",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "63521331-4371-4f19-9524-4116bb35db30",
+                    "match_timestamp": 1649018003.0,
+                    "season": 4,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 1,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "b29da2c0-bbc2-4663-b442-68fdb674972a",
+                            "team_name": "REAL",
+                            "team_color": "95837d",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "66ebc452-f82b-49e2-a442-99f3876679c0",
+                    "match_timestamp": 1650073059.0,
+                    "season": 4,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "fc63278e-4834-4448-adad-7fc451b2f3af",
+                            "team_name": "EMU",
+                            "team_color": "1a2327",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "64eba0bd-444d-4d5c-aeac-aab852096f61",
+                    "match_timestamp": 1652574522.0,
+                    "season": 4,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "02452ce5-8f62-44b4-a09b-ecff7167669b",
+                            "team_name": "BNDT",
+                            "team_color": "1a1d1a",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "274d976e-b0c4-42b2-bce6-0af159ba65ea",
+                            "team_name": "HOTU",
+                            "team_color": "c2b5b6",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                }
+            ]
+        }
+    ]
+}

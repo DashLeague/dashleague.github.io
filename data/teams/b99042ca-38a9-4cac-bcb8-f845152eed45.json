@@ -1,0 +1,195 @@
+{
+    "team": {
+        "team_id": "b99042ca-38a9-4cac-bcb8-f845152eed45",
+        "team_name": "LQ2C",
+        "team_color": "422e4c"
+    },
+    "seasons": [
+        {
+            "season_id": 3,
+            "players": [
+                {
+                    "player_id": "e5a03a79-8f93-47bc-bc93-a496a8957067",
+                    "player_name": "Blix"
+                },
+                {
+                    "player_id": "47ba8eaf-ffa3-48d9-9ace-19abec5f0776",
+                    "player_name": "bob bob"
+                },
+                {
+                    "player_id": "7e4f698d-9ed9-4414-ae3b-1cca5e7fa4b6",
+                    "player_name": "Karatestar"
+                },
+                {
+                    "player_id": "4f96e3fd-650e-4bb2-88da-3da16d2a1f7f",
+                    "player_name": "JoJosBread"
+                },
+                {
+                    "player_id": "361deb12-087a-4655-81c5-a21e378073e7",
+                    "player_name": "StarMaiden"
+                },
+                {
+                    "player_id": "c6ca3005-8c77-4d3c-8f42-0c47a10a7aa7",
+                    "player_name": "xenon"
+                },
+                {
+                    "player_id": "8f4f9857-687f-4b25-b0d4-dc4f131392b9",
+                    "player_name": "vanta"
+                },
+                {
+                    "player_id": "ababb1d5-4118-4555-8bb4-719c4ec8a5ad",
+                    "player_name": "MattMoatMoot"
+                },
+                {
+                    "player_id": "a850bbde-fdf3-4064-bae0-d3640808ab1b",
+                    "player_name": "Blueberry"
+                },
+                {
+                    "player_id": "24fe4134-a7c8-4f7a-993c-8fc7f58da4ca",
+                    "player_name": "Darth"
+                },
+                {
+                    "player_id": "447afc91-f069-4995-a24b-fd7dd1b75f1d",
+                    "player_name": "plobber"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "1f6cfaaf-36a9-46aa-9979-50ac008ae7d9",
+                    "match_timestamp": 1630802301.0,
+                    "season": 3,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "b99042ca-38a9-4cac-bcb8-f845152eed45",
+                            "team_name": "LQ2C",
+                            "team_color": "422e4c",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "f82628b7-9bfa-4226-a894-1f9231fa13d9",
+                            "team_name": "SPNV",
+                            "team_color": "59404d",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "da0df116-f90e-4477-a027-bfaa8ab33311",
+                    "match_timestamp": 1629072378.0,
+                    "season": 3,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "02452ce5-8f62-44b4-a09b-ecff7167669b",
+                            "team_name": "BNDT",
+                            "team_color": "1a1d1a",
+                            "score": 3,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "b99042ca-38a9-4cac-bcb8-f845152eed45",
+                            "team_name": "LQ2C",
+                            "team_color": "422e4c",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "1e0de959-f5f7-48fe-8e9a-85ab580d3630",
+                    "match_timestamp": 1629041766.0,
+                    "season": 3,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "aceff9de-9d34-44eb-acec-f9d51f401217",
+                            "team_name": "FAKE",
+                            "team_color": "616758",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "b99042ca-38a9-4cac-bcb8-f845152eed45",
+                            "team_name": "LQ2C",
+                            "team_color": "422e4c",
+                            "score": 1,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "b87cd6dc-8f89-48e1-8ffb-7583f7c881c5",
+                    "match_timestamp": 1629660434.0,
+                    "season": 3,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "d5545c41-23a2-462f-9b84-c4ef34dac5be",
+                            "team_name": "FaiR",
+                            "team_color": "4b4642",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "b99042ca-38a9-4cac-bcb8-f845152eed45",
+                            "team_name": "LQ2C",
+                            "team_color": "422e4c",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "a94cb07b-b596-4271-bce2-13ad6f08ff98",
+                    "match_timestamp": 1630024399.0,
+                    "season": 3,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "caf214cb-e3a1-4f4b-9640-a5a5674e24ae",
+                            "team_name": "LMB0",
+                            "team_color": "4c171b",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "b99042ca-38a9-4cac-bcb8-f845152eed45",
+                            "team_name": "LQ2C",
+                            "team_color": "422e4c",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                }
+            ]
+        }
+    ]
+}

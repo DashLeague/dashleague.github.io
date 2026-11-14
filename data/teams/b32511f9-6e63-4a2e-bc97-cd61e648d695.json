@@ -1,0 +1,59 @@
+{
+    "team": {
+        "team_id": "b32511f9-6e63-4a2e-bc97-cd61e648d695",
+        "team_name": "ACE",
+        "team_color": "419daf"
+    },
+    "seasons": [
+        {
+            "season_id": 9,
+            "players": [
+                {
+                    "player_id": "65628305-207c-455d-a8e3-a64e9ae6e8e6",
+                    "player_name": "Skitzmix-"
+                },
+                {
+                    "player_id": "26834cff-1876-465b-bd89-f798e240fd29",
+                    "player_name": "Mata usi"
+                },
+                {
+                    "player_id": "dfa5a340-c394-4570-8767-4cb44894434d",
+                    "player_name": "Universal"
+                },
+                {
+                    "player_id": "f04accc1-5755-4a70-b51f-a7b13c303532",
+                    "player_name": "Hibilbo"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "10f51ebf-d379-4330-8ad2-24fb83d0f2d1",
+                    "match_timestamp": 1740218400.0,
+                    "season": 9,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "b32511f9-6e63-4a2e-bc97-cd61e648d695",
+                            "team_name": "ACE",
+                            "team_color": "419daf",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "3d0adb6f-5f64-45e2-b97c-c7ca75d44bfc",
+                            "team_name": "HarD",
+                            "team_color": "290b0b",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                }
+            ]
+        }
+    ]
+}

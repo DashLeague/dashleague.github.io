@@ -1,0 +1,137 @@
+{
+    "team": {
+        "team_id": "7ecc25c5-d50d-4256-9b86-716581478f6e",
+        "team_name": "fuys",
+        "team_color": "9d9b9a"
+    },
+    "seasons": [
+        {
+            "season_id": 8,
+            "players": [
+                {
+                    "player_id": "5b9e8a72-4cb6-49f5-9e2b-a2372ccbebf1",
+                    "player_name": "MaelstromOmega"
+                },
+                {
+                    "player_id": "70c45a05-40f2-4668-8708-ae46563fbfbb",
+                    "player_name": "AFN_Sosa"
+                },
+                {
+                    "player_id": "129c2178-dd18-4ed7-b75e-74f7e7aeae6d",
+                    "player_name": "Fractor"
+                },
+                {
+                    "player_id": "707347f7-e065-4c41-bf84-39f65bb86e84",
+                    "player_name": "quantumui"
+                },
+                {
+                    "player_id": "49b15f97-dc6d-420b-9af0-a5cca0d2ad6f",
+                    "player_name": "CaptainCooks"
+                },
+                {
+                    "player_id": "5e22a3b5-782a-4944-ae44-7e7fc6c43aca",
+                    "player_name": "Prometheus"
+                },
+                {
+                    "player_id": "71fa2d1b-ce19-49e9-bb88-7b4718e1ab1c",
+                    "player_name": "tost"
+                },
+                {
+                    "player_id": "63b6b157-7675-440f-aebe-078e48b7e7a3",
+                    "player_name": "Fireplace"
+                },
+                {
+                    "player_id": "1d63521a-a474-42ca-a40f-86e48b20cfc2",
+                    "player_name": "Smarties"
+                },
+                {
+                    "player_id": "89f95b11-8889-47aa-986a-09c973c3c37a",
+                    "player_name": "McLovin"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "68ef36e8-ec4b-4960-bd36-dc64b67e9d71",
+                    "match_timestamp": 1721698407.0,
+                    "season": 8,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "7ecc25c5-d50d-4256-9b86-716581478f6e",
+                            "team_name": "fuys",
+                            "team_color": "9d9b9a",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "ff947d3e-31de-48ad-996b-3b1eceb681ba",
+                            "team_name": "ATX",
+                            "team_color": "464035",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "06de76b7-fa85-413f-a702-04658abfbb3c",
+                    "match_timestamp": 1723336113.0,
+                    "season": 8,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "7ecc25c5-d50d-4256-9b86-716581478f6e",
+                            "team_name": "fuys",
+                            "team_color": "9d9b9a",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "bf8fdc03-334c-4303-b586-ce5ff565e911",
+                            "team_name": "SKY",
+                            "team_color": "120909",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "b749e475-7288-4ee7-b7b0-6c457e355973",
+                    "match_timestamp": 1722216923.0,
+                    "season": 8,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "caf214cb-e3a1-4f4b-9640-a5a5674e24ae",
+                            "team_name": "LMB0",
+                            "team_color": "4c171b",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "7ecc25c5-d50d-4256-9b86-716581478f6e",
+                            "team_name": "fuys",
+                            "team_color": "9d9b9a",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                }
+            ]
+        }
+    ]
+}
