@@ -1,1 +1,164 @@
-{"team": {"team_id": "a5c9242a-f585-4611-99ca-88c7ef5f0f96", "team_name": "MRTL", "team_color": "432f2f"}, "players": [{"player_id": "952c1e6f-3c92-41dd-b1eb-9c307e09e931", "player_name": "StormicalBLAST"}, {"player_id": "71fa2d1b-ce19-49e9-bb88-7b4718e1ab1c", "player_name": "tost"}, {"player_id": "edf16952-53d7-4282-af92-59834730a6f6", "player_name": "EagleFang"}, {"player_id": "447afc91-f069-4995-a24b-fd7dd1b75f1d", "player_name": "plobber"}, {"player_id": "1c2d7a81-e4f2-42fd-bead-99ef20a476c9", "player_name": "Devil"}, {"player_id": "bc6ec2a5-3b7d-4c58-bcdf-66c1917a6846", "player_name": "Leon"}, {"player_id": "c6ca3005-8c77-4d3c-8f42-0c47a10a7aa7", "player_name": "xenon"}, {"player_id": "4fd0e4e1-ed53-431f-b2cd-5fb39835f00b", "player_name": "AdoptionPapers"}, {"player_id": "cfb7318d-abe6-405d-80d8-98839c5282ca", "player_name": "Dogs Armpits"}, {"player_id": "1612275e-e155-4054-96e0-4bd0646bd68e", "player_name": "BLANK1T"}]}
+{
+    "team": {
+        "team_id": "a5c9242a-f585-4611-99ca-88c7ef5f0f96",
+        "team_name": "MRTL",
+        "team_color": "432f2f"
+    },
+    "seasons": [
+        {
+            "season_id": 3,
+            "players": [
+                {
+                    "player_id": "bc6ec2a5-3b7d-4c58-bcdf-66c1917a6846",
+                    "player_name": "Leon"
+                },
+                {
+                    "player_id": "1c2d7a81-e4f2-42fd-bead-99ef20a476c9",
+                    "player_name": "Devil"
+                },
+                {
+                    "player_id": "952c1e6f-3c92-41dd-b1eb-9c307e09e931",
+                    "player_name": "StormicalBLAST"
+                },
+                {
+                    "player_id": "71fa2d1b-ce19-49e9-bb88-7b4718e1ab1c",
+                    "player_name": "tost"
+                },
+                {
+                    "player_id": "4fd0e4e1-ed53-431f-b2cd-5fb39835f00b",
+                    "player_name": "AdoptionPapers"
+                },
+                {
+                    "player_id": "1612275e-e155-4054-96e0-4bd0646bd68e",
+                    "player_name": "BLANK1T"
+                },
+                {
+                    "player_id": "edf16952-53d7-4282-af92-59834730a6f6",
+                    "player_name": "EagleFang"
+                },
+                {
+                    "player_id": "cfb7318d-abe6-405d-80d8-98839c5282ca",
+                    "player_name": "Dogs Armpits"
+                },
+                {
+                    "player_id": "447afc91-f069-4995-a24b-fd7dd1b75f1d",
+                    "player_name": "plobber"
+                },
+                {
+                    "player_id": "c6ca3005-8c77-4d3c-8f42-0c47a10a7aa7",
+                    "player_name": "xenon"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "1cb42eeb-b665-4543-9760-2a43fdb90da8",
+                    "match_timestamp": 1627329278.0,
+                    "season": 3,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "a5c9242a-f585-4611-99ca-88c7ef5f0f96",
+                            "team_name": "MRTL",
+                            "team_color": "432f2f",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "fcf7f019-c6e2-4e10-8537-1d057156b8ee",
+                            "team_name": "FuRy",
+                            "team_color": "7c5545",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "fb9c88cf-5bd7-4656-a998-47ea9974eacc",
+                    "match_timestamp": 1625930456.0,
+                    "season": 3,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "a5c9242a-f585-4611-99ca-88c7ef5f0f96",
+                            "team_name": "MRTL",
+                            "team_color": "432f2f",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "cb108645-db1c-41af-a3fb-1dcf4350f502",
+                            "team_name": "BLTZ",
+                            "team_color": "7d6855",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "49e7e005-c5f9-47cd-a989-bca35f4ae109",
+                    "match_timestamp": 1627345097.0,
+                    "season": 3,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "d5545c41-23a2-462f-9b84-c4ef34dac5be",
+                            "team_name": "FaiR",
+                            "team_color": "4b4642",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "a5c9242a-f585-4611-99ca-88c7ef5f0f96",
+                            "team_name": "MRTL",
+                            "team_color": "432f2f",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "ed02c922-26ac-4aca-a980-d784aa8b574c",
+                    "match_timestamp": 1626013011.0,
+                    "season": 3,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "a5c9242a-f585-4611-99ca-88c7ef5f0f96",
+                            "team_name": "MRTL",
+                            "team_color": "432f2f",
+                            "score": 1,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "c591502f-ff02-4c04-ba9c-7c40d9ffe123",
+                            "team_name": "NEXX",
+                            "team_color": "503d60",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,102 @@
-{"team": {"team_id": "001841b8-7846-4853-81c3-07d15dc9a639", "team_name": "FACE", "team_color": "514c45"}, "players": [{"player_id": "65f2d4fe-62b1-4811-b960-93dea326ee9e", "player_name": "Pizzasss"}, {"player_id": "412f4d54-f9e2-49b4-867b-40ab93025cc0", "player_name": "smarties"}, {"player_id": "96cd35ba-126b-43df-b42f-a1ee9e2a93b2", "player_name": "Timeless"}, {"player_id": "61a50bc9-720c-420a-903b-f6ed97df6611", "player_name": "Calamity"}, {"player_id": "aeb82a7d-bb46-489d-b2e1-02a0f404164d", "player_name": "Frank The 3rd"}, {"player_id": "cea37306-6d36-4e94-ba5f-8ea4a9918588", "player_name": "radiation"}, {"player_id": "b0c60974-d14a-4bb3-a5f2-843b85fcc15d", "player_name": "pochita"}, {"player_id": "c25c54ee-48b3-4f9c-b9ce-08df3576ca85", "player_name": "Creeps"}]}
+{
+    "team": {
+        "team_id": "001841b8-7846-4853-81c3-07d15dc9a639",
+        "team_name": "FACE",
+        "team_color": "514c45"
+    },
+    "seasons": [
+        {
+            "season_id": 11,
+            "players": [
+                {
+                    "player_id": "96cd35ba-126b-43df-b42f-a1ee9e2a93b2",
+                    "player_name": "Timeless"
+                },
+                {
+                    "player_id": "61a50bc9-720c-420a-903b-f6ed97df6611",
+                    "player_name": "Calamity"
+                },
+                {
+                    "player_id": "412f4d54-f9e2-49b4-867b-40ab93025cc0",
+                    "player_name": "smarties"
+                },
+                {
+                    "player_id": "cea37306-6d36-4e94-ba5f-8ea4a9918588",
+                    "player_name": "radiation"
+                },
+                {
+                    "player_id": "aeb82a7d-bb46-489d-b2e1-02a0f404164d",
+                    "player_name": "Frank The 3rd"
+                },
+                {
+                    "player_id": "65f2d4fe-62b1-4811-b960-93dea326ee9e",
+                    "player_name": "Pizzasss"
+                },
+                {
+                    "player_id": "c25c54ee-48b3-4f9c-b9ce-08df3576ca85",
+                    "player_name": "Creeps"
+                },
+                {
+                    "player_id": "b0c60974-d14a-4bb3-a5f2-843b85fcc15d",
+                    "player_name": "pochita"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "cf0c69f9-5b57-4494-a86b-b002f58bd407",
+                    "match_timestamp": 1784507400.0,
+                    "season": 11,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "20ccae1d-3243-432c-83bd-3d33116c9462",
+                            "team_name": "RAZA",
+                            "team_color": "016445",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "001841b8-7846-4853-81c3-07d15dc9a639",
+                            "team_name": "FACE",
+                            "team_color": "514c45",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": "https://youtube.com/embed/xYMjQM6Mrj8"
+                    }
+                },
+                {
+                    "match_id": "2fe34886-e9b8-4601-b65e-665d646bb2c2",
+                    "match_timestamp": 1783803600.0,
+                    "season": 11,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "3fd16ad2-7461-4d79-9698-a82e601cd7d2",
+                            "team_name": "Doc!",
+                            "team_color": "555c62",
+                            "score": 1,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "001841b8-7846-4853-81c3-07d15dc9a639",
+                            "team_name": "FACE",
+                            "team_color": "514c45",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": "https://youtube.com/embed/zzY3a3KhP0E"
+                    }
+                }
+            ]
+        }
+    ]
+}

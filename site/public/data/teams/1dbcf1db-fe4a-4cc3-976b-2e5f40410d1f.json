@@ -1,1 +1,291 @@
-{"team": {"team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f", "team_name": "-*-", "team_color": "291d35"}, "players": [{"player_id": "5e3ce9bc-e039-4121-925d-925783517647", "player_name": "Lateralus"}, {"player_id": "43a90846-5e83-4378-8bee-8217ae4739dd", "player_name": "Notgollum"}, {"player_id": "d465d724-30e9-4cdf-9909-eb47117d9071", "player_name": "Noble"}, {"player_id": "c001ab87-b06b-4320-a13a-8a4178c08100", "player_name": "wanderer"}, {"player_id": "fe6719f1-533d-4a18-a09c-51e155a0d267", "player_name": "Buzzard Goose"}, {"player_id": "83db09c3-be8c-4167-b000-125d1f02eb73", "player_name": "Lazarus"}, {"player_id": "12e486a2-4864-470a-a74c-f8566d206c27", "player_name": "snarples"}, {"player_id": "f3cdb66c-17b6-4c80-8391-61d44000e70e", "player_name": "MaddKlever"}]}
+{
+    "team": {
+        "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+        "team_name": "-*-",
+        "team_color": "291d35"
+    },
+    "seasons": [
+        {
+            "season_id": 8,
+            "players": [
+                {
+                    "player_id": "d465d724-30e9-4cdf-9909-eb47117d9071",
+                    "player_name": "Noble"
+                },
+                {
+                    "player_id": "83db09c3-be8c-4167-b000-125d1f02eb73",
+                    "player_name": "Lazarus"
+                },
+                {
+                    "player_id": "c001ab87-b06b-4320-a13a-8a4178c08100",
+                    "player_name": "wanderer"
+                },
+                {
+                    "player_id": "f3cdb66c-17b6-4c80-8391-61d44000e70e",
+                    "player_name": "MaddKlever"
+                },
+                {
+                    "player_id": "43a90846-5e83-4378-8bee-8217ae4739dd",
+                    "player_name": "Notgollum"
+                },
+                {
+                    "player_id": "5e3ce9bc-e039-4121-925d-925783517647",
+                    "player_name": "Lateralus"
+                },
+                {
+                    "player_id": "fe6719f1-533d-4a18-a09c-51e155a0d267",
+                    "player_name": "Buzzard Goose"
+                },
+                {
+                    "player_id": "12e486a2-4864-470a-a74c-f8566d206c27",
+                    "player_name": "snarples"
+                }
+            ],
+            "matches": [
+                {
+                    "match_id": "536ee045-0db3-4d74-adbc-17c9935eebbf",
+                    "match_timestamp": 1722130428.0,
+                    "season": 8,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+                            "team_name": "-*-",
+                            "team_color": "291d35",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "904ac0ab-5d25-4919-9ea6-10ca7987f7ef",
+                            "team_name": "ASER",
+                            "team_color": "241d0f",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "4dc9cd78-47d2-40e9-8f37-230b5a2f0388",
+                    "match_timestamp": 1726625391.0,
+                    "season": 8,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "befb6a51-dc07-4c7a-a4b1-e147de16a101",
+                            "team_name": "L1FE",
+                            "team_color": "154f56",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+                            "team_name": "-*-",
+                            "team_color": "291d35",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "c671e1e3-d02e-4725-83f4-9064740ef6b0",
+                    "match_timestamp": 1725674957.0,
+                    "season": 8,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+                            "team_name": "-*-",
+                            "team_color": "291d35",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "befb6a51-dc07-4c7a-a4b1-e147de16a101",
+                            "team_name": "L1FE",
+                            "team_color": "154f56",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "22e9617a-fa5b-4cf7-be9a-b51d1a5167e7",
+                    "match_timestamp": 1722047631.0,
+                    "season": 8,
+                    "cycle": 1,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "8805d143-6f0e-4e95-ac07-88dc92388e67",
+                            "team_name": "PuB",
+                            "team_color": "4e4e4d",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+                            "team_name": "-*-",
+                            "team_color": "291d35",
+                            "score": 0,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "86be6833-d671-4496-aed0-8851ee83066b",
+                    "match_timestamp": 1722907791.0,
+                    "season": 8,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+                            "team_name": "-*-",
+                            "team_color": "291d35",
+                            "score": 2,
+                            "winner": true
+                        },
+                        "away": {
+                            "team_id": "326d0444-d19e-4f57-97c2-6fba7d760f77",
+                            "team_name": "PHNX",
+                            "team_color": "0a0d16",
+                            "score": 1,
+                            "winner": false
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "08d24132-d63a-499e-ac31-c426342280ae",
+                    "match_timestamp": 1725751938.0,
+                    "season": 8,
+                    "cycle": 4,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "70fa5e98-4ef5-4c7f-b15b-f48a9e7e25d3",
+                            "team_name": "SITH",
+                            "team_color": "271f19",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+                            "team_name": "-*-",
+                            "team_color": "291d35",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "2a7471dd-7811-47c6-b0a5-288a12a381f1",
+                    "match_timestamp": 1728007351.0,
+                    "season": 8,
+                    "cycle": 5,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "8805d143-6f0e-4e95-ac07-88dc92388e67",
+                            "team_name": "PuB",
+                            "team_color": "4e4e4d",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+                            "team_name": "-*-",
+                            "team_color": "291d35",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "e1334cd2-0667-44c4-b199-a6cf80998897",
+                    "match_timestamp": 1723318719.0,
+                    "season": 8,
+                    "cycle": 2,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+                            "team_name": "-*-",
+                            "team_color": "291d35",
+                            "score": 0,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "b630cf02-7f11-4b6a-a0cf-dde283e0ec04",
+                            "team_name": "org",
+                            "team_color": "100f10",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                },
+                {
+                    "match_id": "a7562a1b-2c8d-4fa1-b417-19cc45145349",
+                    "match_timestamp": 1724204329.0,
+                    "season": 8,
+                    "cycle": 3,
+                    "forfeit": false,
+                    "playoff": false,
+                    "teams": {
+                        "home": {
+                            "team_id": "bf8fdc03-334c-4303-b586-ce5ff565e911",
+                            "team_name": "SKY",
+                            "team_color": "120909",
+                            "score": 1,
+                            "winner": false
+                        },
+                        "away": {
+                            "team_id": "1dbcf1db-fe4a-4cc3-976b-2e5f40410d1f",
+                            "team_name": "-*-",
+                            "team_color": "291d35",
+                            "score": 2,
+                            "winner": true
+                        }
+                    },
+                    "metadata": {
+                        "vod_link": null
+                    }
+                }
+            ]
+        }
+    ]
+}
