@@ -32,7 +32,7 @@ export type TeamPageData = {
 }
 
 export type TeamSeason = {
-    season_id: number,
+    season_id: number
     players: PlayerBasic[]
     matches: MatchOverview[]
 }

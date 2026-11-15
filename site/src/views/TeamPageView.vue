@@ -46,10 +46,12 @@
     </router-link>
     </div>
     <h1>Matches</h1>
-    <MatchSimpleItem
-    v-for="match in current_season_data.matches"
-    :match=match
-    />
+    <template v-for="cycle in cycles">
+        <h1>Cycle {{ cycle.cycle_id }} <span v-if="cycle.playoff">[Playoffs]</span></h1>
+        <MatchSimpleItem v-for="item in cycle.matches" :match_id="item.match_id"
+            :match="item"
+            />
+    </template>
   </div>
 </template>
 
@@ -76,12 +78,13 @@ import MatchSimpleItem from '@/components/MatchSimpleItem.vue';
 const condensed_data = ref(false);
 
 let current_season = ref(-1)
-// let current_season_data: TeamSeason | null = null
+
 const current_season_data = computed(() =>
   teamData.value?.seasons?.find(
     season => season.season_id === current_season.value
   )
 )
+const cycles = ref<Cycle[]>([])
 const router = useRouter()
 const seasons = ref<Season[]>([])
 const teamData = ref<TeamPageData | null>()
@@ -116,6 +119,23 @@ const update_season = async () => {
   } else {
     current_season.value = Number(props.seasonID)
   }
+
+  cycles.value = [];
+  current_season_data.value?.matches?.forEach(match => {
+      const cycle = cycles.value.find(cycle => cycle.cycle_id === match.cycle);
+      if (cycle) {
+          cycle.matches.push(match)
+      } else {
+          cycles.value.push({
+              cycle_id: match.cycle,
+              playoff: match.playoff,
+              matches: [match]
+          } as Cycle)
+      }
+  });
+
+  // Sorting cycle so the latest is at the top
+  cycles.value.sort((a:Cycle,b:Cycle) => b.cycle_id - a.cycle_id);
 }
 
 watch(
