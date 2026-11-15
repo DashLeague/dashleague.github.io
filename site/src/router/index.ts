@@ -75,6 +75,12 @@ const routes = [
     props: true
   },
   {
+    path: "/player/:playerID/season_:seasonID",
+    name: "player page season",
+    component: PlayerPageView,
+    props: true
+  },
+  {
     path: "/hall-of-champions",
     name: "hall of champions",
     component: ChampView

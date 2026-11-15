@@ -1,12 +1,12 @@
 // Internal Player API for the website
 
-import type { PlayerBasic } from "@/obj/player";
+import type { PlayerBasic, PlayerPageData } from "@/obj/player";
 import { isResponseValidJson } from "./util";
 
 const BASE_URL = import.meta.env.BASE_URL;
 
 // Returns either player data or null
-export async function get_player(playerID:string) {
+export async function get_player(playerID:string): Promise<PlayerPageData | null> {
     try {
         // fetch the player json data
         let response = await fetch(
