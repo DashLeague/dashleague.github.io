@@ -4,3 +4,7 @@
         <h2>File Not Found</h2>
     </div>
 </template>
+
+<script setup lang="ts">
+    document.title = "404 File not found"
+</script>

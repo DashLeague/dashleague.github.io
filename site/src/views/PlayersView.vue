@@ -54,6 +54,7 @@ const playersData = ref<PlayerBasic[] | null>([])
 
 const load_data = async () => {
     console.log(props.seasonID);
+    document.title = 'Players'
     const season_data = await get_seasons();
 
     if (!season_data) {

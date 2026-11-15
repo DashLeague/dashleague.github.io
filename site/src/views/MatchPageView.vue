@@ -144,5 +144,6 @@ onMounted(async () => {
   }
   
   matchData.value = data;
+  document.title = `${data?.teams.home.team_name} VS ${data?.teams.away.team_name} | Season ${data?.season} C${data?.cycle}`
 })
 </script>

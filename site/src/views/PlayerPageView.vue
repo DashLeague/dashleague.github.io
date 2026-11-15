@@ -94,6 +94,7 @@ const load_data = async () => {
     }
 
     playerData.value = team_data;
+    document.title = `${playerData.value?.player.player_name ?? "Unknown"}'s stats`
     team_data?.seasons.forEach(season => {
       seasons.value.push({
         season_id: season.season_id,

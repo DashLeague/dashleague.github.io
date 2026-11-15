@@ -73,6 +73,7 @@ const seasons = ref<Season[] | null>([])
 const teamsData = ref<SeasonTeamList | null>()
 
 const load_data = async () => {
+    document.title = 'Teams | Season 10'
     console.log(props.seasonID);
     const season_data = await get_seasons();
 

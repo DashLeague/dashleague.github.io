@@ -44,6 +44,7 @@ const load_data = async () => {
     }
 
     champions.value = hall_data;
+    document.title = "Hall Of Champions"
 }
 
 onMounted(

@@ -59,6 +59,7 @@ const cycles = ref<Cycle[]>([])
 
 const load_data = async () => {
     console.log(props.seasonID);
+    document.title = 'Matches'
     const season_data = await get_seasons();
 
     if (!season_data) {

@@ -92,9 +92,7 @@ const volunteers = ref<Volunteer[] | null>(null);
 
 onMounted(async () => {
     const data = await get_volunteers();
-    if (!data){
-    router.replace('/404');
-    }
     volunteers.value = data;
+    document.title = "Dash League Archive"
 })
 </script>
