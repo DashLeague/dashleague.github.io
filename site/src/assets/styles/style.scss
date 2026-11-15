@@ -517,7 +517,7 @@ section {
     position: sticky;
     top: 0;
     z-index: 2;
-    background: linear-gradient(0deg,rgb(0, 0, 0) 100%, rgba(85, 92, 98, 0) 0%);
+    background: var(--background);
 
     a{
         width: 1fr;
