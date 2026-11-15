@@ -1,8 +1,1 @@
-{
-    "team": {
-        "team_id": "7299c108-5d7e-47ae-bb4b-be2706d9c16a",
-        "team_name": "SHAD",
-        "team_color": "060606"
-    },
-    "seasons": []
-}
+{"team": {"team_id": "7299c108-5d7e-47ae-bb4b-be2706d9c16a", "team_name": "SHAD", "team_color": "060606"}, "seasons": [{"season_id": 10, "players": [], "matches": [{"match_id": "426a4df5-54b9-416e-a615-61605b33b515", "match_timestamp": 0.0, "season": 10, "cycle": 1, "forfeit": true, "playoff": false, "teams": {"home": {"team_id": "7299c108-5d7e-47ae-bb4b-be2706d9c16a", "team_name": "SHAD", "team_color": "060606", "score": 0, "winner": false}, "away": {"team_id": "fc63278e-4834-4448-adad-7fc451b2f3af", "team_name": "EMU", "team_color": "1a2327", "score": 1, "winner": true}}, "metadata": {"vod_link": null}}, {"match_id": "3878292f-be39-4772-8010-5a305261632f", "match_timestamp": 1760734800.0, "season": 10, "cycle": 1, "forfeit": true, "playoff": false, "teams": {"home": {"team_id": "ab5a3704-8a64-4d87-84da-406e811d6318", "team_name": "DBDH", "team_color": "535a69", "score": 1, "winner": true}, "away": {"team_id": "7299c108-5d7e-47ae-bb4b-be2706d9c16a", "team_name": "SHAD", "team_color": "060606", "score": 0, "winner": false}}, "metadata": {"vod_link": null}}]}]}
