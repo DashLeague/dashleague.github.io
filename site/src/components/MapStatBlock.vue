@@ -29,7 +29,7 @@
       <td v-if="gamemode === Gamemode.ControlPoint">
         {{ stats.control_point_captures}}
       </td>
-      <td v-else-if=show_null_values> NA </td>
+      <!-- <td v-else-if=show_null_values> NA </td>
       <td v-if="gamemode === Gamemode.Domination || gamemode === Gamemode.ControlPoint">
         {{ stats.terminal_interactions}}
       </td>
@@ -37,7 +37,7 @@
       <td v-if="gamemode === Gamemode.Domination || gamemode === Gamemode.ControlPoint">
         {{ stats.terminal_interactions_per_minute}}
       </td>
-      <td v-else-if=show_null_values> NA </td>
+      <td v-else-if=show_null_values> NA </td> -->
   </tr>
 </template>
 

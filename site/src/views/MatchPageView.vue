@@ -1,110 +1,22 @@
 <template>
-
   <!-- Header -->
-  <div class="match-head">
-
+  <div
+  class="match-head"
+  :style="{
+    '--home-color': `#${matchData?.teams.home.team_color}`,
+    '--away-color': `#${matchData?.teams.away.team_color}`
+  }"
+  >
+    <span class="team-colors"
+    ></span>
   </div>
   <!-- Rounds -->
-  <div
-  class="match-map"
-  v-if="matchData"
-  v-for="round in matchData.rounds"
-  >
-  <div class="match-map-stats">
-    <div class="match-map-stats-team">
-      <div class="match-map-stats-head" style="background-color: var(--HD-red);">
-          <p>{{matchData.teams.home.team_name}}</p>
-          <p
-          v-if="round.map.mode == Gamemode.Payload"
-          >{{SecondsToStamp(round.results.home.time)}}</p>
-          <p
-          v-if="round.map.mode == Gamemode.Payload"
-          >{{round.results.home.score / 100.0}}%</p>
-          <p
-          v-else
-          >{{round.results.home.score}}</p>
-      </div>
-      <table class="match-map-stats-table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>kills</th>
-            <th>deaths</th>
-            <th>kd</th>
-            <th>shots</th>
-            <th>headshots</th>
-            <th>score</th>
-            <th
-            v-if="round.map.mode == Gamemode.Payload"
-            >Time On Cart</th>
-            <th
-            v-if="round.map.mode == Gamemode.Domination || round.map.mode == Gamemode.ControlPoint"
-            >Captures</th>
-            <th
-            v-if="round.map.mode == Gamemode.Domination"
-            >Counters</th>
-
-          </tr>
-        </thead>
-        <tbody>
-          <MapStatBlock
-          v-for="stats in round.stats_home"
-          :stats="stats"
-          :gamemode="round.map.mode"
-          />
-        </tbody>
-      </table>
-    </div>
-    <div class="match-map-stats-team">
-      <div class="match-map-stats-head" style="background-color: var(--HD-blue);">
-          <p>{{matchData.teams.away.team_name}}</p>
-          <p
-          v-if="round.map.mode == Gamemode.Payload"
-          >{{SecondsToStamp(round.results.away.time)}}</p>
-          <p
-          v-if="round.map.mode == Gamemode.Payload"
-          >{{round.results.away.score / 100.0}}%</p>
-          <p
-          v-else
-          >{{round.results.away.score}}</p>
-      </div>
-      <table class="match-map-stats-table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>kills</th>
-            <th>deaths</th>
-            <th>kd</th>
-            <th>shots</th>
-            <th>headshots</th>
-            <th>score</th>
-            <th
-            v-if="round.map.mode == Gamemode.Payload"
-            >Time On Cart</th>
-            <th
-            v-if="round.map.mode == Gamemode.Domination || round.map.mode == Gamemode.ControlPoint"
-            >Captures</th>
-            <th
-            v-if="round.map.mode == Gamemode.Domination"
-            >Counters</th>
-          </tr>
-        </thead>
-        <tbody>
-          <MapStatBlock
-          v-for="stats in round.stats_away"
-          :stats="stats"
-          :gamemode="round.map.mode"
-          />
-        </tbody>
-      </table>
-    </div>
-  </div>
-  
-  
-  <br>
-  <br>
-  
-  </div>
+    <MatchRound
+    v-if="matchData"
+    v-for="round in matchData.rounds"
+    :round="round"
+    :teams="matchData.teams"
+    />
 
     <div v-if="matchData">
         <pre>{{ matchData }}</pre>
@@ -122,12 +34,13 @@ const props = defineProps({
 import { ref, onMounted } from 'vue'
 import { get_match } from "../api/matches.ts";
 import { useRouter } from 'vue-router'
-import { Gamemode, SecondsToStamp } from '@/obj/common.ts';
+import { Gamemode } from '@/obj/common.ts';
 
 import MapStatBlock from '../components/MapStatBlock.vue';
 import ViewToggle from '../components/DataViewToggle.vue'
 import MapStatBlockCondensed from '@/components/MapStatBlockCondensed.vue';
 import type { Match } from '@/obj/match.ts';
+import MatchRound from '@/components/MatchRound.vue';
 
 
 const router = useRouter()

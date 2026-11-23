@@ -18,3 +18,14 @@ export function SecondsToStamp(totalSeconds:number): string {
 
     return `${hh}:${mm}:${ss}`;
 }
+
+export const MapNames: Record<string, string> = {
+"unknown"      : "Unknown",
+"pay_canyon"   : "Payload Canyon",
+"dom_waterway" : "Domination Waterway",
+"pay_launchpad": "Payload Launchpad",
+"cp_stadium"   : "Control Point Stadium",
+"dom_quarry"   : "Domination Quarry",
+"pay_abyss"    : "Payload Abyss",
+"dom_volcano"  : "Domination Volcano"
+}

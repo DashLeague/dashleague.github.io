@@ -7,6 +7,11 @@ export type CondensedTeam = {
     team_color: string
 }
 
+export type MatchTeams = {
+    home: TeamMatchOverview, 
+    away: TeamMatchOverview
+}
+
 export type SeasonChampionTeam = {
     team: CondensedTeam
     players: PlayerBasic[]

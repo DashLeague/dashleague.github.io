@@ -748,7 +748,11 @@ section {
     padding: 8px;
     border-bottom: #000 solid 1px;
     text-align: center;
-}
+    }
+
+    td:nth-child(1) {
+        width: -webkit-fill-available;
+    }
 }
 
 .player-rank{
