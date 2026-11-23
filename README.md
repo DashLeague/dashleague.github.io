@@ -9,6 +9,8 @@ This repo serves as an archive of the Dash League and it's history
 ## For non-programmers
 You can access the site via https://dashleague.github.io/
 
+## For whomever wishes to just view a database
+You can get the sql file at [/extras/database.sql](./extras/database.sql)
 
 ## For programmers and those intrigued
 All code in this repo is documented and structures can be found in [docs/dev/](docs/dev)
