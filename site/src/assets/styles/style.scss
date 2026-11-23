@@ -708,6 +708,10 @@ section {
     gap: 1em;
 }
 
+.flex-row.left-stagger{
+        align-items: flex-start !important;
+    }
+
 .popup-menu{
     position: absolute;
     background-color: var(--card);
@@ -730,6 +734,20 @@ section {
         align-items: center;
         width: 100%;
         padding: 3em;
+
+        span{
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+            flex: 1;
+        }
+
+        @media (max-width: 1270px) {
+            flex-direction: column;
+            row-gap: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
     }
     .match-map-stats {
         display: flex;
@@ -820,6 +838,10 @@ section {
     gap: 1em;
     justify-content: center;
 
+    &.left{
+        justify-content: left;
+    }
+
     .player-card{
         padding: 1em 2em;
         border-radius: 10px;
@@ -828,17 +850,33 @@ section {
         display: flex;
         align-items: center;
         background: linear-gradient(315deg, var(--team-color) 0%, var(--background) 100%);
+
+        &.league{
+            background: linear-gradient(315deg, #053a6b 0%, #3b000a 100%);
+        }
     }
 
     @media (max-width: 840px){
         display: grid;
         grid-template-columns: 1fr 1fr;
 
+        &.left{
+            grid-template-columns: 1fr;
+        }
+
         .player-card:nth-child(1n){
             background: linear-gradient(-90deg, var(--team-color) 0%, var(--background) 100%);
+            
+            &.league{
+                background: linear-gradient(-90deg, #053a6b 0%, #3b000a 100%);
+            }
         }
         .player-card:nth-child(2n){
             background: linear-gradient(90deg, var(--team-color) 0%, var(--background) 100%);
+            
+            &.league{
+                background: linear-gradient(-90deg, #053a6b 0%, #3b000a 100%);
+            }
         }
         .player-card{
             padding: .5em 1em;

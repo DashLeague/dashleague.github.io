@@ -12,15 +12,22 @@
         <!-- <div class="toolbar">
       <ViewToggle v-model:condensed="condensed_data" />
     </div> -->
-    <div 
-    v-if="playersData"
-    class="flex-list">
+    <div
+    class="flex-list left-stagger">
         <template
-        v-for="player in playersData"
+        v-for="entry in players_ordered"
         >
-            <div>
-                {{ player.player_name }}
-            </div>
+        <h2>{{ entry[0].toUpperCase() }}</h2>
+        <div class="player-rank left">
+            <router-link
+            v-for="player in entry[1]"
+            class="player-card league"
+            :to="`/player/${player.player_id}`"
+            >
+            <img :src='`/assets/robots/${player.player_robot}`' alt="" height="72px">
+            <h3>{{ player.player_name }}</h3>
+            </router-link>
+        </div>
         </template>
     </div>
         <br>
@@ -51,6 +58,7 @@ const condensed_data = ref(false);
 const router = useRouter()
 const seasons = ref<Season[] | null>([])
 const playersData = ref<PlayerBasic[] | null>([])
+const players_ordered = ref<Map<String, PlayerBasic[]>>(new Map<String, PlayerBasic[]>())
 
 const load_data = async () => {
     console.log(props.seasonID);
@@ -69,6 +77,13 @@ const load_data = async () => {
     }
 
     playersData.value = match_data;
+    playersData.value?.sort((a:PlayerBasic, b:PlayerBasic) => a.player_name.localeCompare(b.player_name)).forEach(player => {
+        const key = player.player_name.trim().slice(0,1).toLowerCase();
+        if (!players_ordered.value?.has(key)) {
+            players_ordered.value?.set(key, []);
+        }
+        players_ordered.value?.get(key)?.push(player);
+    });
 }
 
 watch(

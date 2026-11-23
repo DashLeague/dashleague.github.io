@@ -26,4 +26,5 @@ export type PlayerSeason = {
 export type PlayerBasic = {
     player_id: string
     player_name: string
+    player_robot: string
 }

@@ -38,10 +38,10 @@
     <div class="player-rank">
       <router-link
       v-for="player in current_season_data.players"
-      :class="{'player-card':true}"
+      class="player-card"
       :to="`/player/${player.player_id}/season_${current_season}`"
       >
-      <img src="/assets/robots/crossedarms/blue/helmet_0/pistol/pistol_pistol.png" alt="" height="72px">
+      <img :src='`/assets/robots/${player.player_robot}`' alt="" height="72px">
       <h3>{{ player.player_name }}</h3>
     </router-link>
     </div>
