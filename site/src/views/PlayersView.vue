@@ -77,7 +77,8 @@ const load_data = async () => {
     }
 
     playersData.value = match_data;
-    playersData.value?.sort((a:PlayerBasic, b:PlayerBasic) => a.player_name.localeCompare(b.player_name)).forEach(player => {
+    players_ordered.value = new Map<String, PlayerBasic[]>();
+    playersData.value?.sort((a:PlayerBasic, b:PlayerBasic) => a.player_name.trim().localeCompare(b.player_name.trim())).forEach(player => {
         const key = player.player_name.trim().slice(0,1).toLowerCase();
         if (!players_ordered.value?.has(key)) {
             players_ordered.value?.set(key, []);
