@@ -545,6 +545,42 @@ section {
     }
 }
 
+.match-head{
+    .team-colors{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        aspect-ratio: 1/1;
+        filter: saturate(1);
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg,var(--home-color) 0%, rgba(0, 0, 0, 0) 32%);
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(225deg,var(--away-color) 0%, rgba(0, 0, 0, 0) 32%);
+        }
+    }
+    position: relative;
+    display: flex;
+    height: 256px;
+    align-items: center;
+    font-size: min(5vmin, 60px);
+    gap: 10vmin;
+    padding: 5vmin;
+}
 
 .match-simple-item{
     border-radius: 15px;
@@ -553,7 +589,7 @@ section {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2em;
+    padding: 3em;
     grid-template-columns: repeat(7, 1fr);
     text-align: center;
 
@@ -704,6 +740,29 @@ section {
 
         .match-map-stats-team{
             width: 100%;
+        }
+
+        .short{
+            display: none;
+        }
+        .full{
+            display: table-cell;
+        }
+        
+        @media (max-width: 1270px) {
+            flex-direction: column;
+            row-gap: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+            font-size: 2.5vmin;
+            padding: 0.5em;
+
+            .short{
+                display: table-cell;
+            }
+            .full{
+                display: none;
+            }
         }
     }
 }

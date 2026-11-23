@@ -33,12 +33,14 @@
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>kills</th>
-                            <th>deaths</th>
-                            <th>kd</th>
-                            <th>shots</th>
-                            <th>headshots</th>
-                            <th>score</th>
+                            <th class="short">K</th>
+                            <th class="full">Kills</th>
+                            <th class="short">D</th>
+                            <th class="full">Deaths</th>
+                            <th>KD</th>
+                            <th>Shots</th>
+                            <th>Headshots</th>
+                            <th>Score</th>
                             <th v-if="round.map.mode == Gamemode.Payload"
                             >Time On Cart</th>
                             <th v-if="round.map.mode == Gamemode.Domination || round.map.mode == Gamemode.ControlPoint"
@@ -73,12 +75,14 @@
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>kills</th>
-                            <th>deaths</th>
-                            <th>kd</th>
-                            <th>shots</th>
-                            <th>headshots</th>
-                            <th>score</th>
+                            <th class="short">K</th>
+                            <th class="full">Kills</th>
+                            <th class="short">D</th>
+                            <th class="full">Deaths</th>
+                            <th>KD</th>
+                            <th>Shots</th>
+                            <th>Headshots</th>
+                            <th>Score</th>
                             <th v-if="round.map.mode == Gamemode.Payload"
                             >Time On Cart</th>
                             <th v-if="round.map.mode == Gamemode.Domination || round.map.mode == Gamemode.ControlPoint"

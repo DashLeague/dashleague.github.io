@@ -9,6 +9,19 @@
   >
     <span class="team-colors"
     ></span>
+      <div
+        class="team-logo"
+        :class="{ 'crown': matchData?.teams.home.winner }"
+        >
+        <img :src="`/assets/team_logos/${matchData?.teams.home.team_id}.png`" width="100%" height="auto" loading="lazy">
+      </div>
+      <h1>VS</h1>
+      <div
+        class="team-logo"
+        :class="{ 'crown': matchData?.teams.away.winner }"
+        >
+        <img :src="`/assets/team_logos/${matchData?.teams.away.team_id}.png`" width="100%" height="auto" loading="lazy">
+      </div>
   </div>
   <!-- Rounds -->
     <MatchRound
@@ -19,7 +32,7 @@
     />
 
     <div v-if="matchData">
-        <pre>{{ matchData }}</pre>
+        <!-- <pre>{{ matchData }}</pre> -->
     </div>
 </template>
 

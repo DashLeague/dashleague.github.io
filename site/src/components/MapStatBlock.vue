@@ -1,33 +1,33 @@
 <template>
   <tr>
       <td>{{ stats.player_name }}</td>
-      <td>{{ stats.kills}}</td>
+      <td>{{ stats.kills }}</td>
       <!-- <td>{{ stats.kills_per_minute}}</td> -->
-      <td>{{ stats.deaths}}</td>
+      <td>{{ stats.deaths }}</td>
       <!-- <td>{{ stats.deaths_per_minute}}</td> -->
-      <td>{{ stats.kd}}</td>
+      <td>{{ stats.kd }}</td>
       <!-- <td>{{ stats.playtime}}</td> -->
       <!-- <td>{{ stats.shots}}</td> -->
       <!-- <td>{{ stats.shots_hit}}</td> -->
-      <td>{{ stats.accuracy}}</td>
+      <td>{{ stats.accuracy }}</td>
       <!-- <td>{{ stats.damage}}</td> -->
-      <td>{{ stats.headshots}}</td>
-      <td>{{ stats.score}}</td>
+      <td>{{ stats.headshots }}</td>
+      <td>{{ stats.score }}</td>
       <!-- <td>{{ stats.score_per_minute}}</td> -->
       <td v-if="gamemode === Gamemode.Payload">
-        {{ stats.payload_push_time}}
+        {{ stats.payload_push_time }}
       </td>
       <td v-else-if=show_null_values> NA </td>
       <td v-if="gamemode === Gamemode.Domination">
-        {{ stats.domination_captures}}
+        {{ stats.domination_captures }}
       </td>
       <td v-else-if=show_null_values> NA </td>
       <td v-if="gamemode === Gamemode.Domination">
-        {{ stats.domination_counters}}
+        {{ stats.domination_counters }}
       </td>
       <td v-else-if=show_null_values> NA </td>
       <td v-if="gamemode === Gamemode.ControlPoint">
-        {{ stats.control_point_captures}}
+        {{ stats.control_point_captures }}
       </td>
       <!-- <td v-else-if=show_null_values> NA </td>
       <td v-if="gamemode === Gamemode.Domination || gamemode === Gamemode.ControlPoint">
