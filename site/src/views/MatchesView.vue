@@ -74,6 +74,7 @@ const load_data = async () => {
     }
 
     matchesData.value = match_data;
+    
     cycles.value = [];
     match_data?.forEach(match => {
         const cycle = cycles.value.find(cycle => cycle.cycle_id === match.cycle);

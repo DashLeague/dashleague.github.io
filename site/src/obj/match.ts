@@ -11,6 +11,7 @@ export type Match = {
     match_timestamp: number
     teams: MatchTeams
     rounds: Round[]
+    metadata: MatchMetadata
 }
 
 export type MatchOverview = {
@@ -21,9 +22,7 @@ export type MatchOverview = {
     forfeit: boolean,
     playoff: boolean,
     teams: MatchTeams,
-    metadata: {
-        vod_link: string
-    }
+    metadata: MatchMetadata
 }
 
 export type PlayerMatch = {
@@ -32,4 +31,8 @@ export type PlayerMatch = {
     cycle: number,
     playoff: boolean,
     rounds: Round[]
+}
+
+export type MatchMetadata = {
+    vod_link?: string
 }
