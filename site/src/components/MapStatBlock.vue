@@ -1,6 +1,10 @@
 <template>
   <tr>
-      <td>{{ stats.player_name }}</td>
+      <td>
+        <router-link
+        class="table-button"
+        :to="`/player/${stats.player_id}`">{{ stats.player_name }}</router-link>
+      </td>
       <td>{{ stats.kills }}</td>
       <!-- <td>{{ stats.kills_per_minute}}</td> -->
       <td>{{ stats.deaths }}</td>
