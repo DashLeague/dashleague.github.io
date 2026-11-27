@@ -48,10 +48,10 @@
 </template>
 
 <script setup lang="ts">
-import type { MatchOverview } from "@/obj/match.ts"
+import type { MatchOverview, PlayerMatch } from "@/obj/match.ts"
 
 const props = defineProps<{
-    match: MatchOverview
+    match: MatchOverview | PlayerMatch
 }>();
 
 // *1000 to take it from the miliseconds timestamps js and ts normally use to seconds
