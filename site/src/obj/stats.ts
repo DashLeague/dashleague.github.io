@@ -10,25 +10,26 @@ export type SeasonData = {
 }
 
 export type RoundStats = {
-    player_name: string,
-    kills: number,
-    kills_per_minute: number,
-    deaths: number,
-    deaths_per_minute: number,
-    kd: number,
-    playtime: number,
-    shots: number,
-    shots_hit: number,
-    accuracy: number,
-    damage: number,
-    headshots: number,
-    score: number,
-    score_per_minute: number,
-    payload_push_time: number,
-    domination_captures: number,
-    domination_counters: number,
-    control_point_captures: number,
-    terminal_interactions: number,
+    player_id: string
+    player_name: string
+    kills: number
+    kills_per_minute: number
+    deaths: number
+    deaths_per_minute: number
+    kd: number
+    playtime: number
+    shots: number
+    shots_hit: number
+    accuracy: number
+    damage: number
+    headshots: number
+    score: number
+    score_per_minute: number
+    payload_push_time: number
+    domination_captures: number
+    domination_counters: number
+    control_point_captures: number
+    terminal_interactions: number
     terminal_interactions_per_minute: number
 }
 

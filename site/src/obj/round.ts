@@ -13,3 +13,15 @@ export type Round = {
     stats_home: RoundStats[]
     stats_away: RoundStats[]
 }
+
+export type PlayerRound = {
+    round_id: number,
+    map: Map,
+    forfeit: boolean,
+    time: number,
+    results: {
+        home: RoundScore,
+        away: RoundScore
+    },
+    stats: RoundStats
+}

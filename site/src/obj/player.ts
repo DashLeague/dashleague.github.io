@@ -2,7 +2,7 @@ import type {
     SeasonData,
     AggregatedStats
 } from "../obj/stats.ts"
-import type { MatchOverview } from "./match.ts"
+import type { MatchOverview, PlayerMatch } from "./match.ts"
 import type { CondensedTeam } from "./team.ts"
 
 type PlayerData = {
@@ -20,7 +20,7 @@ export type PlayerPageData = {
 export type PlayerSeason = {
     season_id: number
     teams: CondensedTeam[]
-    matches: MatchOverview[]
+    matches: PlayerMatch[]
 }
 
 export type PlayerBasic = {
